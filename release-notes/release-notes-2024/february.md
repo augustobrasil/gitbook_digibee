@@ -2,6 +2,12 @@
 
 ## Release notes 02-06-2024
 
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2Fva1demKBl0Ex0cPROZcr%2Fheader_realeasenews_February.gif?alt=media&token=19f38c4a-b9eb-4d9e-978c-fa4c233ba0c3" %}
+February's release notes or what's new header image
+{% endembed %}
+
+
+
 ## Monitor — Overview (General Availability)
 
 We’ve changed the Specific filter for the calendar on the Overview page, and now it can be used the same way as the other calendars on the Digibee Integration Platform's Monitor tab.
@@ -42,11 +48,9 @@ On the [Policies page](https://docs.digibee.com/documentation/governance/policie
 
 The details include the pipeline's name and the issue so you can get a better overview of non-conformant pipelines and easily fix them.
 
-{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MkqXsI0cPgzRnwxNhnH%2Fuploads%2Fa7sSSidSljbFsFPGht6s%2FCompliance%20Status%20Report%20BETA.mp4?alt=media&token=fee806fe-d844-47f1-ae81-930e55088aa5" %}
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2FtmwLf8lKDhS4orTEkRVj%2FCompliance%20Status%20Report%20%20BETA.mp4?alt=media&token=83cb66fb-c910-4167-9056-877f822e14f2" %}
 Compliance status report feature video
 {% endembed %}
-
-
 
 
 
