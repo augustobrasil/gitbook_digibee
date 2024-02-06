@@ -1,0 +1,15 @@
+---
+description: >-
+  Discover more about the Secure PDF component and how to use it on the Digibee
+  Integration Platform.
+---
+
+# Secure PDF
+
+**SecurePDF** allows you to define a password, or specific settings (read only, print, fill in form, and so on) for an existing PDF file.
+
+## Parameters
+
+Take a look at the configuration options for the component. Parameters supported by [Double Braces expressions](https://docs.digibee.com/documentation/build/double-braces) are marked with `(DB)`.
+
+<table data-full-width="true"><thead><tr><th>Parameter</th><th width="286">Description</th><th>Default value</th><th>Data type</th></tr></thead><tbody><tr><td><strong>File Name</strong> <code>(DB)</code></td><td>Name or path of the PDF file that should receive the eventual password, or permissions.</td><td>{{ message.fileName }}</td><td>String</td></tr><tr><td><strong>Set password</strong></td><td>If the option is activated, the inclusion of a password in the PDF file is allowed to generate a protected document.</td><td>False</td><td>Boolean</td></tr><tr><td><strong>Password</strong> <code>(DB)</code></td><td>Password to protect the PDF file.</td><td>N/A</td><td>String</td></tr><tr><td><strong>Custom permissions</strong></td><td>If the option is activated, several options for access permissions on the PDF file are available; otherwise, the PDF file will be generated with full permissions.</td><td>False</td><td>Boolean</td></tr><tr><td><strong>Read only</strong></td><td>Access permission that sets the PDF file as "read-only". If the option is activated, all other access permissions will be deactivated.</td><td>False</td><td>Boolean</td></tr><tr><td><strong>Assemble document</strong></td><td>Allows pages to be added, rotated, and removed from the file.</td><td>False</td><td>Boolean</td></tr><tr><td><strong>Modify</strong></td><td>Allows you to modify the file.</td><td>False</td><td>Boolean</td></tr><tr><td><strong>Modify annotations</strong></td><td>Allows you to add or modify text annotations in the file.</td><td>False</td><td>Boolean</td></tr><tr><td><strong>Extract content</strong></td><td>Allows you to extract texts and images from the file.</td><td>False</td><td>Boolean</td></tr><tr><td><strong>Extract for accessibility</strong></td><td>Allows you to extract text and images from the file, for accessibility purposes.</td><td>False</td><td>Boolean</td></tr><tr><td><strong>Print</strong></td><td>Allows printing the file.</td><td>False</td><td>Boolean</td></tr><tr><td><strong>Print degraded</strong></td><td>Allows for degraded printing of the file.</td><td>False</td><td>Boolean</td></tr><tr><td><strong>Fill in Form</strong></td><td>Allows you to fill in forms with interactive fields.</td><td>False</td><td>Boolean</td></tr><tr><td><strong>Fail On Error</strong></td><td>If the option is activated, the execution of the pipeline with error will be stopped; otherwise, the pipeline execution continues, but the result will show a false value for the “success” property.</td><td>False</td><td>Boolean</td></tr></tbody></table>
