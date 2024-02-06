@@ -2,6 +2,12 @@
 
 ## Novidades 06/02/2024
 
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2Fva1demKBl0Ex0cPROZcr%2Fheader_realeasenews_February.gif?alt=media&token=19f38c4a-b9eb-4d9e-978c-fa4c233ba0c3" %}
+Image do header de novidades ou release notes de fevereiro
+{% endembed %}
+
+
+
 ## Monitor — Página Visão Geral (General Availability)
 
 Mudamos o filtro Específico dos calendários na página Visão Geral que agora pode ser usado da mesma forma que os demais calendários em Monitor na Digibee Integration Platform.
@@ -43,11 +49,9 @@ Na [página de Políticas](https://docs.digibee.com/documentation/v/pt-br/govern
 
 Os detalhes incluem o nome do pipeline e o problema, permitindo uma visão mais ampla dos pipelines não conformes e facilitando sua correção.
 
-{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MkqXsI0cPgzRnwxNhnH%2Fuploads%2Fa7sSSidSljbFsFPGht6s%2FCompliance%20Status%20Report%20BETA.mp4?alt=media&token=fee806fe-d844-47f1-ae81-930e55088aa5" %}
-Video da feature de relatório de status de conformidade
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2FtmwLf8lKDhS4orTEkRVj%2FCompliance%20Status%20Report%20%20BETA.mp4?alt=media&token=83cb66fb-c910-4167-9056-877f822e14f2" %}
+Vídeo da feature de relatório de status de conformidade&#x20;
 {% endembed %}
-
-
 
 
 
