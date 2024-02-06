@@ -1,0 +1,17 @@
+# Responsabilidades dos cliente Saas dedicado
+
+A lista a seguir descreve as responsabilidades específicas que os clientes SaaS Dedicados precisam estar cientes durante a instalação e operação da Digibee Integration Platform:
+
+* **Custos de infraestrutura:** Os custos da nuvem são de responsabilidade exclusiva do cliente. Isso inclui despesas relacionadas aos serviços do provedor de nuvem, como instâncias de computador, armazenamento, rede e quaisquer recursos adicionais necessários para a plataforma de integração Digibee. É recomendável que você monitore e gerencie de perto seus custos de nuvem para garantir que eles estejam alinhados com o orçamento e os requisitos de sua organização.&#x20;
+* **Segurança e gerenciamento de dados:** A segurança geral da infraestrutura e do gerenciamento de dados do cliente continua sendo uma responsabilidade compartilhada. Embora a Digibee trabalhe diligentemente para fornecer uma plataforma segura, é essencial que você, como cliente, implemente e mantenha medidas de segurança apropriadas em seu ambiente. Isso inclui gerenciar o acesso do usuário, implementar a criptografia de dados e aderir às políticas de governança de dados da sua organização. Avaliações de segurança regulares e monitoramento de vulnerabilidades potenciais são recomendados.&#x20;
+* **Account Credentials/Privileges Safekeeping:** É essencial garantir que todas as informações de acesso à conta (nomes de usuário, senhas e quaisquer credenciais privilegiadas) sejam armazenadas de forma segura e acessíveis apenas ao pessoal autorizado.Qualquer acesso não autorizado resultante da guarda inadequada dessas credenciais será de responsabilidade exclusiva do cliente.
+
+{% hint style="info" %}
+Aconselhamos a implementação de políticas de senha fortes, permitindo a autenticação multifator e revisando e atualizando regularmente os privilégios de acesso para reduzir o risco de acesso não autorizado.
+{% endhint %}
+
+* **Papéis e Políticas:** Como parte do processo de instalação, funções e políticas específicas precisam ser estabelecidas em seu ambiente de nuvem. Essas funções e políticas determinam o acesso e as permissões para instalar, gerenciar e operar a Digibee Integration Platform.&#x20;
+* **Rede:** O cliente é responsável por rotear o tráfego para Load Balancers que correspondam às especificidades de seu ambiente. O SaaS dedicado da Digibee é um _cluster_ totalmente privado. Isso significa que internamente esses Load Balancers respondem apenas ao VPC onde a plataforma está instalada.&#x20;
+* **Outbound Internet Access:** É obrigatório que a Digibee Integration Platform tenha acesso à internet. Se as políticas do cliente exigirem acesso controlado à Internet, você pode fazer solicitações de proxy, permitindo o acesso a endereços e portas específicas.&#x20;
+* **\[Opcional] Certificados:** Os clientes podem fornecer certificados personalizados para a Digibee Integration Platform ou permitir a instalação da plataforma para criar certificados privados usando serviços nativos da nuvem.&#x20;
+* **\[Opcional] Armazenamento de objetos Digibee:** Caso o cliente decida adquirir o Object Store MongoDB Atlas, ele será totalmente responsável por ele, incluindo configurações de segurança, privacidade e gerenciamento de dados. O cliente também deve garantir a contratação do serviço MongoDB Atlas, por ser um componente necessário para a funcionalidade Object Store da plataforma.
