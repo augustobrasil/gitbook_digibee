@@ -41,10 +41,10 @@
 ## Build
 
 * [Build overview](build/build-overview.md)
-* [Canvas](build/new-canvas-beta-restricted/README.md)
-  * [Execution panel](build/new-canvas-beta-restricted/execution-panel.md)
-  * [Design and debug mode](build/new-canvas-beta-restricted/design-and-debug-mode.md)
-  * [Linter: Canvas building validation](build/new-canvas-beta-restricted/pipeline-building-validation.md)
+* [Canvas](build/canvas/README.md)
+  * [Execution panel](build/canvas/execution-panel.md)
+  * [Design and debug mode](build/canvas/design-and-debug-mode.md)
+  * [Linter: Canvas building validation](build/canvas/canvas-building-validation.md)
 * [Pipeline](build/pipelines/README.md)
   * [Subpipelines](build/pipelines/subpipelines.md)
   * [How to create a project](build/pipelines/projects.md)

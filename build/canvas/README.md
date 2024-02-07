@@ -78,7 +78,7 @@ In addition to the features presented in this article, Canvas also offers other 
 
 ### Pipeline building validation <a href="#h_ce47d0a128" id="h_ce47d0a128"></a>
 
-The Canvas displays alerts when you’re building a pipeline. These alerts help developers identify and fix common issues faster. To learn more about this, read the article [Pipeline building validation](pipeline-building-validation.md).
+The Canvas displays alerts when you’re building a pipeline. These alerts help developers identify and fix common issues faster. To learn more about this, read the article [Pipeline building validation](canvas-building-validation.md).
 
 ### Test the pipeline <a href="#h_a35b7d4d00" id="h_a35b7d4d00"></a>
 

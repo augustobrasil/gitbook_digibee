@@ -31,7 +31,7 @@ Global Search for deployed pipelines: now, it’s possible to find your deployed
 
 ### NEW CANVAS - TEST MODE
 
-Test mode timeout: now, the execution time of the pipeline on Test mode will increase from 30 seconds to 1 minute. Read more in the [Test mode documentation.](../../build/new-canvas-beta-restricted/execution-panel.md)
+Test mode timeout: now, the execution time of the pipeline on Test mode will increase from 30 seconds to 1 minute. Read more in the [Test mode documentation.](../../build/canvas/execution-panel.md)
 
 
 
@@ -66,7 +66,7 @@ The Digibee Integration Platform has a fresh look, with fonts and colors matchin
 
 ### NEW CANVAS - TEST MODE
 
-We've made some improvements in the Test mode of the new Canvas. Resizing the window and the Input and Output columns on the Test tab is now possible. Also, the Test mode now displays up to 1000 messages of an execution. Learn more in the [Test mode documentation](../../build/new-canvas-beta-restricted/execution-panel.md).
+We've made some improvements in the Test mode of the new Canvas. Resizing the window and the Input and Output columns on the Test tab is now possible. Also, the Test mode now displays up to 1000 messages of an execution. Learn more in the [Test mode documentation](../../build/canvas/execution-panel.md).
 
 
 

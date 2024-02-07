@@ -4,7 +4,7 @@
 
 ### NEW CANVAS (BETA)
 
-* **Pipeline building validation:** we've implemented two new pipeline build validation alerts to help you more quickly identify and fix common issues when using the [Session Management](../../components/structured-data/session-management.md) component. To learn more, read the [Pipeline building validation](../../build/new-canvas-beta-restricted/pipeline-building-validation.md#session-management) article.
+* **Pipeline building validation:** we've implemented two new pipeline build validation alerts to help you more quickly identify and fix common issues when using the [Session Management](../../components/structured-data/session-management.md) component. To learn more, read the [Pipeline building validation](../../build/canvas/canvas-building-validation.md#session-management) article.
 * **Search field:** we’ve improved the Search feature of the new Canvas. Now, it’s also possible to search for any value defined in any field of the configuration forms of the components used in the pipeline. To learn more, read the article [Pipeline navigation](../../build/pipelines/pipeline-navigation.md#search-field-beta).
 
 **IMPORTANT:** when you use the new Canvas, you automatically join the Beta program and agree to the terms of use. If you would like more information about beta versions, you can read the [Beta Program](../../general/beta-program.md) documentation.

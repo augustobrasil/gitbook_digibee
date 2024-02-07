@@ -14,7 +14,7 @@ We’ve launched the new Canvas as a beta version, with significant improvements
 
 * **Flow tree**, a tree-like structure that displays the components of a pipeline, making it easier to navigate through sublevels and understand the logic applied in the integration flow;
 * **Search field**, which allows the user to quickly and easily search for accounts, globals, and components;
-* **Validation alerts** during pipeline building to help you identify and fix common issues faster. To learn more, read the article [Pipeline building validation](../../build/new-canvas-beta-restricted/pipeline-building-validation.md);
+* **Validation alerts** during pipeline building to help you identify and fix common issues faster. To learn more, read the article [Pipeline building validation](../../build/canvas/canvas-building-validation.md);
 * **Minimap** to facilitate and speed up navigation and reading while building a pipeline;
 * **Improved accuracy** when pasting a component or flow into an area of the new Canvas;
 * **Magnetic arrow** that allows easier connection between components;
@@ -22,7 +22,7 @@ We’ve launched the new Canvas as a beta version, with significant improvements
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MkqXsI0cPgzRnwxNhnH%2Fuploads%2F0Lqdi02FJ855Y7OYcw45%2Fnovo%20canvas%20gif.gif?alt=media&token=e8899f72-cb69-43e9-956f-3f5e3fce895d" %}
 
-To learn more, read the documentation about the [New Canvas](../../build/new-canvas-beta-restricted/) and [Pipeline navigation](../../build/pipelines/pipeline-navigation.md).
+To learn more, read the documentation about the [New Canvas](../../build/canvas/) and [Pipeline navigation](../../build/pipelines/pipeline-navigation.md).
 
 **IMPORTANT:** when you use the new Canvas, you automatically join the Beta program and agree to the terms of use. If you would like more information about beta versions, you can read the [Beta Program](../../general/beta-program.md) documentation.\\
 

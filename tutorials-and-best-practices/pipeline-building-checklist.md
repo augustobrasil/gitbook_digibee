@@ -39,7 +39,7 @@ If you use a username and password to access a service in an integration flow, d
 
 ## Censor Sensitive fields <a href="#uo494fvvwmf" id="uo494fvvwmf"></a>
 
-[Set sensitive fields in the pipeline configurations](../build/new-canvas-beta-restricted/#h\_f0d7247948) to censor this information in pipeline logs and messages.
+[Set sensitive fields in the pipeline configurations](../build/canvas/#h\_f0d7247948) to censor this information in pipeline logs and messages.
 
 ## Use the HTTPS protocol <a href="#w4b2u5ppknwp" id="w4b2u5ppknwp"></a>
 
