@@ -31,7 +31,7 @@ Busca Global para _pipelines_ implantados: agora é possível encontrar seu _pip
 
 ### NOVO CANVAS - TEST MODE
 
-Tempo de execução do Test mode: agora, o tempo de execução de _pipelines_ no Test mode passará de 30 segundos para 1 minuto. Leia mais na [documentação sobre o Test mode](../../build/new-canvas-beta-restricted/execution-panel.md).
+Tempo de execução do Test mode: agora, o tempo de execução de _pipelines_ no Test mode passará de 30 segundos para 1 minuto. Leia mais na [documentação sobre o Test mode](../../build/canvas/execution-panel.md).
 
 ### &#x20; NOVA IDENTIDADE VISUAL
 
@@ -61,7 +61,7 @@ A Digibee Integration Platform está com aparência nova devido à adequação d
 
 ### &#x20;NOVO CANVAS - TEST MODE
 
-Fizemos algumas melhorias no Test mode do Novo Canvas. Agora, é possível redimensionar o tamanho da janela e também das colunas de Input e Output na aba de Teste. Além disso, o Test mode exibirá até 1000 mensagens de uma execução no Novo Canvas. Saiba mais na [documentação de Test mode](../../build/new-canvas-beta-restricted/execution-panel.md).
+Fizemos algumas melhorias no Test mode do Novo Canvas. Agora, é possível redimensionar o tamanho da janela e também das colunas de Input e Output na aba de Teste. Além disso, o Test mode exibirá até 1000 mensagens de uma execução no Novo Canvas. Saiba mais na [documentação de Test mode](../../build/canvas/execution-panel.md).
 
 
 

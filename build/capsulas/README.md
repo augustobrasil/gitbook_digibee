@@ -153,7 +153,7 @@ Sim. As Cápsulas são restritas à empresa específica que as utiliza.
 
 A Digibee Integration Platform nunca faz alterações diretas na estrutura ou informações de _pipelines_ implantados. Portanto, o uso de Cápsulas funciona com [versionamento](versionamento-de-capsulas.md).
 
-Ao adicionar uma Cápsula ao _pipeline_, você a vincula à versão “_Major_” ou “_Minor_” da Cápsula. A versão "_Fix_" não está vinculada porque o _pipeline_ sempre obtém automaticamente a versão "_Fix_" mais recente quando uma nova implantação é feita ou quando o [Painel de execução](../new-canvas-beta-restricted/execution-panel.md) é executado na tela do _pipeline_.
+Ao adicionar uma Cápsula ao _pipeline_, você a vincula à versão “_Major_” ou “_Minor_” da Cápsula. A versão "_Fix_" não está vinculada porque o _pipeline_ sempre obtém automaticamente a versão "_Fix_" mais recente quando uma nova implantação é feita ou quando o [Painel de execução](../canvas/execution-panel.md) é executado na tela do _pipeline_.
 
 Conforme mencionado na[ documentação de versionamento de Cápsulas](versionamento-de-capsulas.md), a versão "_Fix_" só é alterada se a alteração não afetar o _pipeline_. _Pipelines_ não são afetados ou atualizados por versões "_Major_" ou "_Minor_" de uma Cápsula que faz parte de sua compilação. Para utilizar esta Cápsula, um Analista de Integração responsável pelo _Pipeline_ deverá aplicá-la manualmente.
 

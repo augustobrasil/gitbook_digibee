@@ -8,7 +8,7 @@ Lançamos o novo Canvas em beta, com melhorias significativas relacionadas à ex
 
 * _**Flow tree**_, estrutura em forma de árvore que exibe os componentes de um _pipeline_, simplificando a navegação entre subníveis e o entendimento da lógica aplicada no fluxo de integração;
 * **Campo de pesquisa**, que permite ao usuário buscar contas, _globals_ e componentes de maneira fácil e rápida;
-* **Alertas de validação** durante a construção de um pipeline, que ajudam a identificar e corrigir problemas comuns mais rápido. Para saber mais, leia a documentação de [Validação de construção de pipeline](../../build/new-canvas-beta-restricted/validacao-de-construcao-do-pipeline.md);
+* **Alertas de validação** durante a construção de um pipeline, que ajudam a identificar e corrigir problemas comuns mais rápido. Para saber mais, leia a documentação de [Validação de construção de pipeline](../../build/canvas/canvas-building-validation.md);
 * **Minimapa**, que agiliza a navegação e a leitura durante a construção de um _pipeline_;
 * **Maior precisão** ao colar um componente ou fluxo em uma área específica do novo Canvas;
 * **Seta magnética**, que facilita a conexão entre os componentes;
@@ -16,7 +16,7 @@ Lançamos o novo Canvas em beta, com melhorias significativas relacionadas à ex
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MkqXsI0cPgzRnwxNhnH%2Fuploads%2F0Lqdi02FJ855Y7OYcw45%2Fnovo%20canvas%20gif.gif?alt=media&token=e8899f72-cb69-43e9-956f-3f5e3fce895d" %}
 
-Para saber mais, leia a documentação sobre o [Novo Canvas](../../build/new-canvas-beta-restricted/) e [Navegação em um pipeline](../../build/pipelines/pipeline-navigation.md).
+Para saber mais, leia a documentação sobre o [Novo Canvas](../../build/canvas/) e [Navegação em um pipeline](../../build/pipelines/pipeline-navigation.md).
 
 **IMPORTANTE:** ao utilizar o novo Canvas, você automaticamente faz sua adesão ao programa Beta e concorda com os termos de uso. Para mais informações sobre versões beta, leia a documentação [Programa beta](../../general/programa-beta.md).\
 

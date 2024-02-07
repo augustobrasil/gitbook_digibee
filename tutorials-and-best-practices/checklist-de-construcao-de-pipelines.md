@@ -39,7 +39,7 @@ Se você usar um nome de usuário e senha para acessar um serviço em um fluxo d
 
 ## Censure campos sensíveis <a href="#uo494fvvwmf" id="uo494fvvwmf"></a>
 
-[Defina os campos sensíveis nas configurações do _pipeline_](../build/new-canvas-beta-restricted/#configuracoes-do-pipeline) para censurar essas informações nos _logs_ e mensagens do _pipeline_.
+[Defina os campos sensíveis nas configurações do _pipeline_](../build/canvas/#configuracoes-do-pipeline) para censurar essas informações nos _logs_ e mensagens do _pipeline_.
 
 ## Use o protocolo HTTPS <a href="#w4b2u5ppknwp" id="w4b2u5ppknwp"></a>
 
