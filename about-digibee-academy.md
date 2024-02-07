@@ -36,4 +36,4 @@ For those seeking flexibility and independence in their learning journey, our se
 
 For more information, [download our Guidebook](https://drive.google.com/file/d/12fIjm338EsKk0KdizNHzdRFPZV3GYS2s/view) and access [Digibee Academy](https://digibee.academy/) now to see our training portfolio.
 
-If we can do anything to improve your experience, please contact the Digibee Academy support team at [academy@digibee.com](https://app.gitbook.com/u/d85K6CNoeUTnnEovt7K1vts7etF2).
+If we can do anything to improve your experience, please contact the Digibee Academy support team at academy@digibee.com.
