@@ -10,7 +10,7 @@ The [Digibee Academy](https://digibee.academy/) is a dedicated online training p
 Digibee Academy is available free of charge to all our customers and partners as part of their Digibee Integration Platform subscription.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/Academy 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/imagem 1.png" alt=""><figcaption></figcaption></figure>
 
 ## Training programs
 
@@ -18,7 +18,7 @@ At Digibee Academy, our carefully curated training programs cater to a diverse r
 
 The distinction between our instructor-led and self-paced training ensures that learners can choose the learning method that best suits their preferences and needs. Whichever path you take, Digibee Academy is committed to empowering you with the knowledge and skills necessary to excel in the world of integration.
 
-<figure><img src=".gitbook/assets/Academy 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/imagem 2.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 We have workshops taking place monthly. For more information about the dates, see the page in [Portuguese](https://marketing.digibee.com/pt/workshop-foundations-digibee) or [English](https://marketing.digibee.com/workshop-foundations-digibee-us).
@@ -36,4 +36,4 @@ For those seeking flexibility and independence in their learning journey, our se
 
 For more information, [download our Guidebook](https://drive.google.com/file/d/12fIjm338EsKk0KdizNHzdRFPZV3GYS2s/view) and access [Digibee Academy](https://digibee.academy/) now to see our training portfolio.
 
-If we can do anything to improve your experience, please contact the Digibee Academy support team at academy@digibee.com.
+If we can do anything to improve your experience, please contact the Digibee Academy support team at [academy@digibee.com](https://app.gitbook.com/u/d85K6CNoeUTnnEovt7K1vts7etF2).
