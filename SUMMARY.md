@@ -34,6 +34,7 @@
     * [Janeiro](release-notes/release-notes-2022/janeiro.md)
   * [Release notes 2021](release-notes/release-notes.md)
   * [Release notes 2020](release-notes/realease-notes-2020.md)
+* [Sobre o Digibee Academy](about-digibee-academy.md)
 * [Digibee Academy](https://digibee.academy)
 * [Integration Developer Bootcamp](developer-bootcamp.md)
 
