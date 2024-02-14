@@ -35,7 +35,7 @@ Follow these steps to access the Policies page:
 
 On the Policies page, you will see cards showing the number of deployments you have in each environment, as well as the number of deployments that are conformant or non-conformant with the policies. Click the card to see more details about the issues for each pipeline.
 
-<figure><img src="../../.gitbook/assets/policies-1 (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/policies.gif" alt=""><figcaption></figcaption></figure>
 
 Below the cards, you can configure each policy individually. The categories are available to identify the different types of policies and their impact.
 
@@ -43,4 +43,5 @@ Learn more about the configuration of each policy:
 
 * [External API Keys](https://docs.digibee.com/documentation/governance/policies/external-api-key)
 * [Internal API Keys](https://docs.digibee.com/documentation/governance/policies/internal-api-key)
+* [Sensitive fields](sensitive-fields.md)
 
