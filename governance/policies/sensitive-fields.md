@@ -14,8 +14,6 @@ When you set a sensitive field, the information in the [pipeline logs](https://d
 
 <figure><img src="../../.gitbook/assets/sensitive-fields-log.png" alt="Log details of a log that contains sensitive fields."><figcaption><p>Log with sensitive fields on the Monitor page.</p></figcaption></figure>
 
-Log with sensitive fields on the Monitor page.
-
 In the Digibee Integration Platform, you have two options for configuring sensitive fields:
 
 * **Realm level:** you can define sensitive fields for all pipelines in your realm.
@@ -24,7 +22,7 @@ In the Digibee Integration Platform, you have two options for configuring sensit
 ### Sensitive fields for the realm level
 
 {% hint style="info" %}
-The Sensitive fields policy is in beta phase and will be available on the Digibee Integration Platform from February 19.
+The Sensitive fields policy is in beta phase and will be available on the Digibee Integration Platform from February 19, 2024.
 {% endhint %}
 
 To set sensitive fields for the entire realm, you must configure a **Sensitive fields policy**. Proceed as follows:
