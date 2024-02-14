@@ -180,6 +180,7 @@
 * [Políticas (beta)](governance/policies/README.md)
   * [Chaves de API Externas](governance/policies/policies-external-api-key.md)
   * [Chaves de API Internas](governance/policies/policies-internal-api-key.md)
+  * [Campos sensíveis](governance/policies/sensitive-fields.md)
 
 ## Licenciamento <a href="#licensing" id="licensing"></a>
 
