@@ -33,7 +33,7 @@ Siga estas etapas para acessar a página de Políticas:
 
 Na página de Políticas, você verá cartões mostrando o número de implantações que você possui em cada ambiente, bem como o número de implantações que estão em conformidade ou não conformidade com as políticas. Clique acima do cartão para ver mais detalhes sobre os problemas para cada _pipeline_.
 
-<figure><img src="../../.gitbook/assets/políticas-1.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/políticas.gif" alt=""><figcaption></figcaption></figure>
 
 Abaixo dos cartões, você pode configurar cada política individualmente. As categorias estão disponíveis para identificar os diferentes tipos de políticas e seu impacto.
 
@@ -41,5 +41,6 @@ Saiba mais sobre a configuração de cada política:
 
 * [Chaves de API Externas](https://docs.digibee.com/documentation/v/pt-br/governance/policies/policies-external-api-key)
 * [Chaves de API Internas](https://docs.digibee.com/documentation/v/pt-br/governance/policies/policies-internal-api-key)
+* [Campos sensíveis](sensitive-fields.md)
 
 \
