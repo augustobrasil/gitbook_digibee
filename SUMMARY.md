@@ -180,6 +180,7 @@
 * [Policies (beta)](governance/policies/README.md)
   * [External API Key](governance/policies/external-api-key.md)
   * [Internal API Key](governance/policies/internal-api-key.md)
+  * [Sensitive fields](governance/policies/sensitive-fields.md)
 
 ## Licensing
 
