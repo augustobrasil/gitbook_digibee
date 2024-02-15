@@ -200,7 +200,7 @@
   * [How to use Digibee Customer Support’s Artificial Intelligence intelligence](general/digibee-customer-support/how-to-use-digibee-customer-supports-artificial-intelligence-intelligence.md)
 * [Status Page](general/status-page.md)
 * [Beta Program](general/beta-program.md)
-* [Certifications](general/ongoing-certifications.md)
+* [Our commitment to security and compliance](general/security-and-compliance.md)
 * [Terms of use for AI functionalities](general/terms-of-use-for-ai-functionalities.md)
 
 ## Components
