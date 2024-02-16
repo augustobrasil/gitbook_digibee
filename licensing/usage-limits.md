@@ -35,7 +35,7 @@ O segundo escopo é chamado de **Escopo Local**, e é aplicado para cada _pipeli
 Os valores diferem entre os ambientes de produção e teste.
 {% endhint %}
 
-### Cotas Globais
+### Cotas Contratadas
 
 | Recurso                     | Ambiente de Teste                                 | Ambiente de Produção                                  | Acréscimo por    |
 | --------------------------- | ------------------------------------------------- | ----------------------------------------------------- | ---------------- |
@@ -50,7 +50,7 @@ Os valores diferem entre os ambientes de produção e teste.
 No caso do ZTNA,  também podem ser usados 2 edge router para “prod/test” (redundância).&#x20;
 {% endhint %}
 
-### Cotas Locais
+### Cotas Implantadas
 
 | Recurso                      | Ambiente de Teste                   | Ambiente de Produção                     | Acréscimo por |
 | ---------------------------- | ----------------------------------- | ---------------------------------------- | ------------- |
