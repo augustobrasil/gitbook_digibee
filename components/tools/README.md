@@ -24,6 +24,8 @@ Aqui estão os artigos desta sessão:
 
 {% embed url="https://docs.digibee.com/documentation/v/pt-br/components/tools/json-path-transformer" %}
 
+{% embed url="https://docs.digibee.com/documentation/v/pt-br/components/tools/json-path-transformer-v2" %}
+
 {% embed url="https://docs.digibee.com/documentation/v/pt-br/components/tools/json-string-to-json-transformer" %}
 
 {% embed url="https://docs.digibee.com/documentation/v/pt-br/components/tools/json-to-csv-v2" %}
