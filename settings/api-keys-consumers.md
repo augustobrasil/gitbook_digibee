@@ -10,10 +10,6 @@ API Keys are access credentials that are provided for queries in pipelines using
 
 Basic Auth is an authentication method for REST, HTTP, and HTTP File Triggers. This option ensures access only to users who have a registered username and password. A Consumer can contain any number of Basic Auth credentials.
 
-{% hint style="info" %}
-**Important:** currently, the Basic Auth feature is only available in Beta phase. [To learn more about this, read the article Beta program.](https://docs.digibee.com/documentation/general/beta-program)
-{% endhint %}
-
 The Consumers, API Keys, and Basic Auth related to your pipeline can be found on the **Consumers (API Keys)** page, which is structured as follows:
 
 * A list with the Consumer’s name.
@@ -24,7 +20,7 @@ The Consumers, API Keys, and Basic Auth related to your pipeline can be found on
 
 You can also search for a specific Consumer/API Key using the search box above the list.
 
-<figure><img src="../.gitbook/assets/consumer-tela01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/consumers-page.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Important:** to call a pipeline, the use of API Keys is mandatory. However, you can also use Basic Auth as an additional layer of security.
@@ -54,7 +50,7 @@ The generated Consumer is displayed at the end of the list. Clicking the pencil 
 3. Select the environment (test or prod) and click on the pencil icon associated with the desired Consumer. A new screen will be displayed.
 4. Select the **API Keys** tab and click **Add API Key**.
 
-<figure><img src="../.gitbook/assets/consumer-apikey.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/consumers-api-key.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Important**: Create a different API key for each consuming system in your API to restrict access to only the desired pipelines. In addition to API Keys, it’s also recommended to use JWT (JSON Web Token) to increase security.
@@ -67,7 +63,7 @@ The generated Consumer is displayed at the end of the list. Clicking the pencil 
 3. Select the environment (test or prod), choose a Consumer, and click on the pencil icon associated with the desired Consumer. A new screen will be displayed.
 4. Select the **Basic Auth** tab, define an user and password, and then click **Add Basic Auth**. Note that the username cannot be repeated.
 
-<figure><img src="../.gitbook/assets/new-basic.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/consumers-basic-auth.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Important**: when configuring a Basic Auth credential, the username always receives the prefix {realm}, which references the consumer’s realm. Example: **{realm}-{username}**.
