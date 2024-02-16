@@ -304,6 +304,7 @@
   * [Stream DB V1 (Descontinuado)](components/structured-data/stream-db-v1.md)
   * [Google Big Table](components/structured-data/google-big-table.md)
 * [Tools](components/tools/README.md)
+  * [JSON Path Transformer V2](components/tools/json-path-transformer-v2.md)
   * [Transformer (JOLT) V2](components/tools/transformer-jolt-v2.md)
   * [JSLT](components/tools/jslt.md)
   * [Store Account (Beta Restrito)](components/tools/store-account.md)
