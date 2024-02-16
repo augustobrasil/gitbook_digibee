@@ -170,7 +170,7 @@
   * [Nova Arquitetura OAuth2](settings/accounts/new-oauth2-architecture/README.md)
     * [Cadastro de novos provedores OAuth](settings/accounts/new-oauth2-architecture/registration-of-new-oauth-providers.md)
   * [Configurando Account Dropbox](settings/accounts/configuring-the-dropbox-account.md)
-* [Consumers (Chaves de API)](settings/chaves-de-api-consumers.md)
+* [Consumers (Chaves de API)](settings/api-keys-consumers.md)
 * [Modelos de Relacionamento](settings/relacionamento.md)
 * [Multi-Instância](settings/multi-instancia/README.md)
   * [Implantando um pipeline de multi-instância](settings/multi-instancia/multi-instancia.md)

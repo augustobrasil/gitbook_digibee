@@ -10,10 +10,6 @@ Chaves de API são credenciais de acesso para consultas em _pipelines_ usando _t
 
 _Basic_ Auth é um método de autenticação para os _triggers_ REST, HTTP e HTTP File. Essa opção garante acesso somente para usuários que tenham um nome de usuário e senha registrados. Um _Consumer_ pode conter uma ou mais credenciais _Basic Auth_.
 
-{% hint style="info" %}
-**Importante:** atualmente, a funcionalidade Basic Auth está em fase Beta. [Para saber mais, leia o artigo Programa beta.](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta)
-{% endhint %}
-
 Os _Consumers_, Chaves de API e _Basic Auth_ relacionados a seu _pipeline_ podem ser encontrados na página **Consumers (Chaves de API)**, que está estruturada da seguinte forma:
 
 * Uma lista com o nome do _Consumer_.
@@ -24,7 +20,7 @@ Os _Consumers_, Chaves de API e _Basic Auth_ relacionados a seu _pipeline_ podem
 
 Você também pode procurar por um _Consumer_/Chave de API específico no campo de busca localizado acima da lista.
 
-<figure><img src="../.gitbook/assets/consumer-tela01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/consumers-pagina.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Importante:** o uso de Chaves de API é obrigatório para chamar um _pipeline_. No entanto, você também pode usar o Basic Auth como uma camada adicional de segurança.
@@ -54,7 +50,7 @@ O _Consumer_ gerado aparece ao final da lista. Ao clicar no ícone do lápis, vo
 3. Selecione o ambiente (_test_ ou _prod_) e clique no ícone do lápis do _Consumer_ desejado. Uma nova tela irá aparecer.
 4. Selecione a aba **Chaves de API** e clique em **Adicionar Chave de API**.
 
-<figure><img src="../.gitbook/assets/consumer-apikey.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/consumers-chave-de-api.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Importante**: crie uma Chave de API diferente para cada sistema consumidor da sua API para restringir acesso apenas para os _pipelines_ desejados. Além das Chaves de API, também é recomendado usar JWT (_JSON Web Token_) para aumentar a segurança.
@@ -67,7 +63,7 @@ O _Consumer_ gerado aparece ao final da lista. Ao clicar no ícone do lápis, vo
 3. Selecione o ambiente (_test_ ou _prod_) e clique no ícone do lápis do _Consumer_ desejado. Uma nova tela irá aparecer.
 4. Selecione a a aba **Basic Auth**, defina um nome de usuário e senha, e em seguida clique em **Adicionar Basic Auth**. Lembre-se que o nome de usuário não deve ser repetido.
 
-<figure><img src="../.gitbook/assets/new-basic.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/consumers-basic-auth-pt.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Importante:** ao configurar uma credencial _Basic Auth_, o nome de usuário sempre recebe o prefixo {realm}, que faz referência ao _realm_ do cliente. Exemplo: **{realm}-{username}**.

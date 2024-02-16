@@ -135,4 +135,4 @@ Nós também solucionamos alguns _bugs_:
 
 * [digibeectl](../../plataforma/digibeectl/)
 * [Criação de novas implantações](../../run/deployment/deployments.md)
-* [API Keys (Consumers)](../../settings/chaves-de-api-consumers.md)
+* [API Keys (Consumers)](../../settings/api-keys-consumers.md)
