@@ -35,7 +35,7 @@ The second scope is called the **Local Scope** and is applied to each deployed p
 The values for production and test environments are different.
 {% endhint %}
 
-### Global quotas
+### Contracted quotas
 
 | Resource                | Test Environment                                    | Production Environ.                                   | Grows per        |
 | ----------------------- | --------------------------------------------------- | ----------------------------------------------------- | ---------------- |
@@ -50,7 +50,7 @@ The values for production and test environments are different.
 In the case of ZTNA, there can also be 2 edge routers for “prod/test” (redundancy).&#x20;
 {% endhint %}
 
-### Local quotas
+### Deployed quotas
 
 | Resource                  | Test Environment                     | Production Environ.                    | Grows per |
 | ------------------------- | ------------------------------------ | -------------------------------------- | --------- |
