@@ -55,6 +55,13 @@ Vídeo da feature de relatório de status de conformidade&#x20;
 
 
 
+## Basic Auth (_General Availability_)
+
+A _feature_ _Basic Auth_, que permite criar um método de autenticação para os _triggers_ Rest, HTTP e HTTP FIle, foi atualizada da fase beta e agora está disponível para todos os clientes.\
+Saiba mais sobre _Basic Auth_ na [documentação de _Consumers_ (Chaves de API)](https://docs.digibee.com/documentation/v/pt-br/settings/api-keys-consumers).
+
+
+
 
 
 ### Nós também solucionamos alguns bugs:
