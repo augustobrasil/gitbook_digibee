@@ -54,6 +54,18 @@ Compliance status report feature video
 
 
 
+## Basic Auth (General Availability)
+
+\
+The Basic Auth feature, which allows you to create an authentication method for the Rest, HTTP, and HTTP File triggers, has been upgraded from beta to general availability.\
+Learn more about Basic Auth in the [Consumers (API Keys) documentation](https://docs.digibee.com/documentation/settings/api-keys-consumers).
+
+
+
+
+
+
+
 ### We’ve also fixed a few bugs:
 
 * **Administration — Unformatted calendar on the Audit page:** we’ve fixed the bug where the calendar was opened unformatted when the specific filter was selected on the Audit page.
