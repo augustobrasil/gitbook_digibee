@@ -50,7 +50,7 @@ Nos últimos dias, melhoramos a experiência de consulta nos registros em Audito
 
 * **Status:** o status da ação. Este parâmetro permite identificar ações executadas com sucesso e ações que apresentaram erros em sua execução.
 
-Para saber mais, leia a [documentação completa de Auditoria](../../administration/auditoria.md).
+Para saber mais, leia a [documentação completa de Auditoria](../../administration/audit.md).
 
 #### **GRUPOS DIGIBEE - INTEGRAÇÃO COM PROVEDORES DE IDENTIDADE**
 

@@ -139,7 +139,7 @@
 
 ## Administração <a href="#administration" id="administration"></a>
 
-* [Auditoria](administration/auditoria.md)
+* [Auditoria](administration/audit.md)
 * [Autenticação e autorização de usuários](administration/user-authentication-and-autorization/README.md)
   * [Como habilitar e desabilitar a autenticação de dois fatores](administration/user-authentication-and-autorization/verificacao-em-duas-etapas.md)
   * [Fluxo de login](administration/user-authentication-and-autorization/login-flow/README.md)
