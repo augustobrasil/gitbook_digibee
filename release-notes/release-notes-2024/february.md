@@ -56,7 +56,6 @@ Compliance status report feature video
 
 ## Basic Auth (General Availability)
 
-\
 The Basic Auth feature, which allows you to create an authentication method for the Rest, HTTP, and HTTP File triggers, has been upgraded from beta to general availability.\
 Learn more about Basic Auth in the [Consumers (API Keys) documentation](https://docs.digibee.com/documentation/settings/api-keys-consumers).
 
