@@ -1,12 +1,78 @@
 # February
 
-## Release notes 02-06-2024
-
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2Fva1demKBl0Ex0cPROZcr%2Fheader_realeasenews_February.gif?alt=media&token=19f38c4a-b9eb-4d9e-978c-fa4c233ba0c3" %}
 February's release notes or what's new header image
 {% endembed %}
 
+##
 
+## Release notes 02-20-2024
+
+## Components&#x20;
+
+* **JSON Path Transformer V2 (General Availability):** we’ve released a new component version that allows users to receive any valid JSON input and make filters and data extractions from an expression. This version of the component also supports Double Braces expressions. \
+  Learn more in the [JSON Path Transformer V2 documentation](https://docs.digibee.com/documentation/components/tools/json-path-transformer-v2).
+
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2FqKa3JsMsCxfAlMcS4Pbn%2Fjson-path-transformer-v2%20GA.mp4?alt=media&token=2c1a2320-96b7-47bb-8104-1af1599271f0" %}
+JSON Path Transformer V2 component new version video
+{% endembed %}
+
+
+
+## Audit — Export audit records (General Availability)
+
+We’ve improved the Audit page so you can now export a CSV file with audit records with a single click.&#x20;
+
+With this improvement, you can get more information about the audit records, save the records locally on your computer, and also use an external tool to read them.
+
+Learn more in the [Audit documentation](https://docs.digibee.com/documentation/administration/audit).
+
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2FlbBQ31QRkbcNHMZD46Lc%2Fsensitive-fields-policy%20GA.mp4?alt=media&token=6402620b-619e-420e-8f3a-bf263eeab0ea" %}
+Export audit logs feature video
+{% endembed %}
+
+
+
+## New policy — Sensitive fields (Beta)
+
+The Sensitive fields policy is a new feature that allows you to configure sensitive fields for the realm as a policy. Now, you can manage sensitive fields for all pipelines in a single place.
+
+Sensitive fields are a mechanism that already exists in the pipelines in the Digibee Integration Platform. It allows you can configure the information you want to hide in the pipeline logs, such as IDs, addresses, and bank numbers.
+
+Learn more in the [Sensitive fields documentation](https://docs.digibee.com/documentation/governance/policies/sensitive-fields).
+
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2FnFokzKNFkJ0sECdYVO7m%2Fsensitive-fields-policy%20BETA.mp4?alt=media&token=30cb7963-990b-4466-bafe-d031ac5b9580" %}
+Sensitive fields policy feature video
+{% endembed %}
+
+
+
+## Digibee Academy — New page on the Documentation Portal
+
+The [Digibee Academy](https://digibee.academy/) team now has their very own page on the Documentation Portal, both in [English ](https://docs.digibee.com/documentation/about-digibee-academy)and in [Portuguese](https://docs.digibee.com/documentation/v/pt-br/about-digibee-academy).
+
+We've given readers an overview of the courses and training we offer and all the benefits of becoming an Academy student. Plus, don't miss out on the opportunity to [download our Academy Guidebook](https://digibee.academy/class-materials/Guidebook/Guidebook\_Digibee%20Academy\_EN.pdf) to get a detailed insight into our offers!
+
+\
+
+
+### We’ve also fixed a few bugs:
+
+* **Canvas — Blank page on the canvas when opening a component form:** we’ve fixed the bug that caused the canvas area to remain blank when opening the component configuration form.
+* **Capsules — Incorrect tabs in the preview of the Capsule configuration form:** we’ve fixed the bug that displayed incorrect tabs in the preview of the Capsule configuration form.
+* **Canvas — Improvement in copy and paste experience within the canvas:** we’ve fixed the bug that selected text from the canvas page and components simultaneously, causing the paste action to work incorrectly.
+* **Canvas — Performance adjustments:** we've made general performance improvements and adjustments to the canvas interaction to provide a smoother experience, which can also have a positive impact on the copy-and-paste experience.
+* **OAuth — Click animation on the step indicator in the OAuth provider settings:** we’ve fixed the bug where an animation was displayed when clicking on the step indicator in the OAuth provider settings, even if it wasn’t possible to interact with the steps.
+* **Components — Cassandra DB:** we’ve fixed a bug that caused an error in the data type conversion when using Double Braces expressions in the component.
+* **Components — Numeric precision (Engine V2):** we’ve fixed a bug that caused incorrect behavior when using the numeric precision feature on Engine V2.
+
+
+
+***
+
+##
+
+## Release notes 02-06-2024
 
 ## Monitor — Overview (General Availability)
 
