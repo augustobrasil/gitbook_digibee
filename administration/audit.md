@@ -1,117 +1,71 @@
 ---
 description: >-
-  Entenda a funcionalidade de auditoria Digibee Integration Platform. Todas as
-  operações realizadas são armazenadas com segurança e exibidas no submenu
-  Auditoria na página de Administração.
+  Saiba mais sobre como ver registros de auditoria na Digibee Integration
+  Platform.
 ---
 
 # Auditoria
 
-Para auxiliar na governança e no mapeamento de ações, toda e qualquer operação realizada dentro da Digibee Integration Platform é armazenada em segurança e apresentada no submenu Auditoria, localizado na página de Administração da Plataforma.
+Para facilitar tanto o gerenciamento quanto o registro das ações, todas as operações realizadas dentro da Digibee Integration Platform são armazenadas de forma segura e exibidas na página Auditoria da Plataforma. Isso ajuda você a rastrear e monitorar alterações do sistema e atividades do usuário, bem como investigar incidentes de segurança.
 
-## Seletor de período <a href="#h_e3f6a0edc4" id="h_e3f6a0edc4"></a>
+Para acessar a página Auditoria, clique em **Administração** no canto superior direito da página inicial da Plataforma e abra o submenu **Auditoria**.
 
-![](../.gitbook/assets/auditoria\_1.png)
+<figure><img src="../.gitbook/assets/acessar-auditoria.gif" alt="Acesse a seção Administração da Plataforma e navegue até a página Auditoria."><figcaption></figcaption></figure>
 
-No centro da tela “Auditoria”, podemos atualizar os logs de ações ao selecionar o período pretendido entre as opções:
+## Visão geral da página Auditoria
 
-* 5 minutos
-* 15 minutos
-* 1 hora
-* **Específico:** Ao clicar em “Específico”, é possível estabelecer um intervalo de tempo entre duas datas e horas.
+A página Auditoria oferece funções com as quais você pode filtrar e pesquisar os registros de auditoria e baixá-los como um arquivo para o seu próprio computador.
 
-## Logs de Ações <a href="#h_a4bc7973c0" id="h_a4bc7973c0"></a>
+<figure><img src="../.gitbook/assets/pagina-auditoria.png" alt="Visão geral da página Auditoria."><figcaption><p>Página de auditoria na Digibee Integration Platform.</p></figcaption></figure>
 
-![](<../.gitbook/assets/Log de acoes BR.png>)
+### Período de tempo
 
-Nesta seção, é mostrado os logs de ações conforme o intervalo de tempo e os parâmetros de busca previamente definidos. As informações de cada log estão dispostas no relatório conforme as seguintes colunas:
+Na parte superior da página, você pode selecionar o período para seus registros de auditoria.
 
-* **Data de início:** A data e o horário de início da ação;
-* **Usuário:** O nome e o email do usuário que executou a ação;
-* **Ação:** O tipo de ação realizada, podendo ser:
-  * **Todos:** Todos os tipos de ações;
-  * **Visualizar:** Logs de ações de visualização;
-  * **Criar:** Logs de ações de criação;
-  * **Atualizar:** Logs de ações de atualização;
-  * **Remover/Arquivar:** Logs de ações de exclusão ou arquivamento.
-* **Status:** O status da ação, podendo ser:
-  * **Sucesso**: Ações executadas com sucesso;
-  * **Erro**: Ações que apresentaram erro em sua execução.
-* **Serviço:** Onde a ação foi realizada.
-* **Referência:** O _id_ do objeto que sofreu a ação. Caso o log da ação se refira a um serviço e não a um objeto em específico, este campo será apresentado em branco.
-* **Descrição:** Breve descrição da ação executada.
+Ao selecionar o período, você pode escolher se deseja ver os registros de auditoria dos últimos **5 minutos**, **15 minutos**, **1 hora**, ou um intervalo de datas **específico**.
 
-**Important:** Alguns logs de ação serão apresentados com o campo Referência em branco, pois esses não se referem a ações executadas em um objeto específico, mas sim a serviços, que são as entidades do sistema que englobam os objetos. Os objetos específicos de um serviço possuem _id_ e os serviços, por sua vez, não possuem _id_.
+### Busca simples e avançada
 
-## Campo de busca <a href="#h_1d19bf926c" id="h_1d19bf926c"></a>
+Abaixo do período de tempo, você pode realizar uma busca simples no campo de pesquisa digitando o endereço de email do usuário que deseja pesquisar e clicando em **Buscar**. Você também pode clicar em **Busca avançada** para ver mais opções e pesquisar informações específicas. Preencha todos ou alguns dos campos abaixo para pesquisar:
 
-O “Campo de busca” comporta parâmetros que auxiliam o usuário a encontrar determinado log de ação. Através deles, é possível especificar atributos de determinada ação para localizá-la com maior precisão e rapidez.
+* **Descrição:** descrição do registro que você deseja pesquisar.
+* **Ação:** tipo de ação realizada, que pode ser: **Todos**, **Visualizar**, **Criar**, **Atualizar** ou **Remover/Arquivar**.
+* **Referência:** ID do objeto no qual o usuário fez a ação.
+* **Serviço:** funcionalidade em que a ação foi executada.
+* **Status:** _status_ da ação, que pode ser: **Todos**, **Sucesso** ou **Erro**.
 
-### Busca simples <a href="#h_f171f2aa86" id="h_f171f2aa86"></a>
+### Registros de auditoria
 
-![](../.gitbook/assets/auditoria\_3.png)
+Abaixo do período de tempo e do campo de pesquisa, você pode visualizar os registros de auditoria de acordo com o intervalo de tempo e parâmetros de pesquisa previamente definidos. As informações estão organizadas em uma tabela com as seguintes colunas:
 
-* **Email:** Este parâmetro filtra os logs pelo email do usuário que realizou ou solicitou a ação.
+* **Data de início:** data e hora de início da ação.
+* **Usuário:** nome e endereço de email do usuário que executou a ação.
+* **Ação:** tipo de ação realizada, que pode ser: **Todos**, **Visualizar**, **Criar**, **Atualizar** ou **Remover/Arquivar**.
+* **Status:** _status_ da ação, que pode ser **Sucesso** para ações executadas com sucesso ou **Erro** para ações em que ocorreu um erro durante a execução.
+* **Serviço:** funcionalidade em que a ação foi executada.
+* **Referência:** ID do objeto no qual o usuário fez a ação. Caso o registro de auditoria se refira a um serviço e não a um objeto específico, este campo permanece vazio.
+* **Descrição:** breve descrição da ação executada.
 
-### Busca avançada <a href="#h_5ea7820720" id="h_5ea7820720"></a>
+{% hint style="info" %}
+Em alguns registros de auditoria, a coluna **Referência** não tem nenhum dado. Isso ocorre porque esses registros não se referem a ações executadas em um objeto específico. Eles referem-se a serviços, que são as entidades do sistema que englobam os objetos. Os objetos específicos de um serviço possuem um ID, enquanto os serviços não possuem um ID.
+{% endhint %}
 
-![](../.gitbook/assets/BR.png)
+### Exportar registros de auditoria
 
-* **Descrição:** Este parâmetro filtra os logs pela descrição da ação;
-* **Ação:** Este parâmetro filtra os logs conforme o tipo de ação realizada, podendo ser escolhido dentre as seguintes opções:
-  * **Todos:** Apresenta todos os tipos de ações;
-  * **Visualizar:** Apresenta apenas os logs de ações de visualização;
-  * **Criar:** Apresenta apenas os logs de ações de criação;
-  * **Atualizar:** Apresenta apenas os logs de ações de atualização;
-  * **Remover/Arquivar**_**:**_ Apresenta apenas os logs de ações de exclusão ou arquivamento.
-* **Referência:** O _id_ do objeto que sofreu a ação.
-* **Serviços:** Este parâmetro filtra a ação pelo serviço, ou seja, pela funcionalidade onde a ação foi realizada, podendo ser:
-  * Account
-  * API Keys
-  * Audit
-  * Capsule
-  * Capsule Collection
-  * Capsule Group
-  * Capsule Header
-  * Completed Execution
-  * Component
-  * Consumer
-  * Deployment
-  * Entity
-  * Environment
-  * Event
-  * Global
-  * Library
-  * Monitor Overview
-  * Multi Instance
-  * OAuth Provider
-  * OAuth Provider (Legacy)
-  * Pipeline
-  * Pipeline Configuration
-  * Pipeline Log
-  * Pipeline Metric
-  * Pipeline Template
-  * Pipeline Tracking
-  * Platform Permission
-  * Platform User
-  * Project
-  * Realm
-  * Realm Parameter
-  * Relationship
-  * Retention
-  * Running Execution
-  * SAML Group Mapping
-  * SAML Scheme
-  * Scope
-  * Static Content
-  * Term of Acceptance
-  * Test Mode
-  * Trigger
-  * User
-  * User Group
-  * User Group (Binding)
-  * User Password
-  * User Profile
-  * User Role
-  * User Two-factor
-  * digibeectl
+Depois de filtrar os registros, você pode clicar no botão **Exportar** para baixar uma pasta compactada com os registros de auditoria para o seu computador. Nesta pasta você encontrará um arquivo CSV com os últimos 50.000 registros de auditoria. Os registos baixados correspondem aos apresentados na página, levando em consideração o intervalo de tempo e parâmetros de pesquisa. O arquivo contém as seguintes informações:
+
+* **dateStart:** data de início do processamento da requisição.
+* **dateEnd:** data final do processamento da requisição.
+* **description:** descrição da ação executada.
+* **url:** endereço que foi acessado.
+* **method:** método HTTP da requisição realizada.
+* **uri:** recurso que foi acessado.
+* **httpStatusCode:** código do _status_ HTTP da requisição.
+* **status:** _status_ da operação realizada.
+* **remoteAddress:** endereço que foi acessado remotamente.
+* **payload:** _body_ da requisição.
+* **queryParam:** parâmetro da requisição.
+* **fullName:** nome do usuário que realizou a operação.
+* **email:** email do usuário que realizou a operação.
+* **service:** serviço de _backend_ que foi acessado.
+* **sourceIp:** endereço IP do dispositivo que realizou a operação.
