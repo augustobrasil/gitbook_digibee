@@ -28,7 +28,7 @@ This subpipeline implements the subflow that processes each element in the colle
 
 In the case of the "Validation of Client Data" process, the **OnProcess** subpipeline handles all the records of the clients collection individually and checks whether the "Date of birth" attribute is filled in each of them:
 
-<figure><img src="../../.gitbook/assets/image-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image-3-NEW.png" alt=""><figcaption></figcaption></figure>
 
 At the end of each execution of the **onProcess** subpipeline, a success attribute is returned indicating whether the execution succeeded or failed. By default, this attribute is returned with a value "false". Thus, you must explicitly indicate when the execution went as expected.
 
