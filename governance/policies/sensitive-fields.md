@@ -21,10 +21,6 @@ In the Digibee Integration Platform, you have two options for configuring sensit
 
 ### Sensitive fields for the realm level
 
-{% hint style="info" %}
-The Sensitive fields policy is in beta phase and will be available on the Digibee Integration Platform from February 19, 2024.
-{% endhint %}
-
 To set sensitive fields for the entire realm, you must configure a **Sensitive fields policy**. Proceed as follows:
 
 1. On the Platform home page, click **Settings** in the upper right corner.
