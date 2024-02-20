@@ -1,12 +1,80 @@
 # Fevereiro
 
-## Novidades 06/02/2024
-
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2Fva1demKBl0Ex0cPROZcr%2Fheader_realeasenews_February.gif?alt=media&token=19f38c4a-b9eb-4d9e-978c-fa4c233ba0c3" %}
 Image do header de novidades ou release notes de fevereiro
 {% endembed %}
 
+##
 
+## Novidades 20/02/2024
+
+## Componentes
+
+* **JSON Path Transformer V2 (General Availability):** lançamos uma nova versão do componente que permite a pessoa usuária receber qualquer entrada válida JSON e fazer filtros e extrações de dados de uma expressão. Essa versão do componente também suporta expressões Double Braces.\
+  Saiba mais na [documentação do componente JSON Path Transformer V2.](https://docs.digibee.com/documentation/v/pt-br/components/tools/json-path-transformer-v2)
+
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2FqKa3JsMsCxfAlMcS4Pbn%2Fjson-path-transformer-v2%20GA.mp4?alt=media&token=2c1a2320-96b7-47bb-8104-1af1599271f0" %}
+Vídeo da nova versão do componente JSON Path Transformer V2
+{% endembed %}
+
+##
+
+## Auditoria — Exportação de registros de auditoria (General Availability)
+
+Fizemos uma melhoria na página de Auditoria que permite que você exporte um arquivo CSV com os registros de auditoria com um único clique.&#x20;
+
+Com essa melhoria, você pode ter mais informações sobre os registros de auditoria, salvá-los localmente em seu computador e também usar uma ferramenta externa para ler os registros.&#x20;
+
+Saiba mais na [documentação de Auditoria](https://docs.digibee.com/documentation/v/pt-br/administration/audit).
+
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2FlbBQ31QRkbcNHMZD46Lc%2Fsensitive-fields-policy%20GA.mp4?alt=media&token=6402620b-619e-420e-8f3a-bf263eeab0ea" %}
+Vídeo da feature de exportar logs de auditoria
+{% endembed %}
+
+
+
+## Nova política — Campos sensíveis (Beta)
+
+A política de campos sensíveis é uma nova feature que permite configurar campos sensíveis para o realm como uma política. Agora, você pode gerenciar esses campos sensíveis para todos os pipelines em um único lugar.&#x20;
+
+O campo sensível é um mecanismo que já existe nos pipelines na Digibee Integration Platform. Com ele você pode configurar para algumas informações serem escondidas nos logs do pipeline, como IDs, endereços e números de bancos.&#x20;
+
+Saiba mais na [documentação sobre Campos sensíveis](https://docs.digibee.com/documentation/v/pt-br/governance/policies/sensitive-fields).
+
+
+
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2FnFokzKNFkJ0sECdYVO7m%2Fsensitive-fields-policy%20BETA.mp4?alt=media&token=30cb7963-990b-4466-bafe-d031ac5b9580" %}
+Vídeo da feature de políticas de campos sensíveis
+{% endembed %}
+
+##
+
+## Digibee Academy — Nova página do Digibee Academy no Portal de Documentação
+
+O time do [Digibee Academy](https://digibee.academy/) agora tem uma página própria no Portal de documentação, tanto em [inglês](https://docs.digibee.com/documentation/about-digibee-academy) quanto em [português](https://docs.digibee.com/documentation/v/pt-br/about-digibee-academy).
+
+Lá você encontra um panorama dos cursos e treinamentos que oferecemos e todos os benefícios de se tornar estudante do Academy. Além disso, não perca a oportunidade de baixar nosso [Guia do Academy](https://digibee.academy/class-materials/Guidebook/Guidebook\_Digibee%20Academy\_PT.pdf) para obter informações detalhadas sobre nossos treinamentos!
+
+\
+
+
+### Nós também solucionamos alguns bugs:
+
+* **Canvas — Página em branco no canvas ao abrir o formulário de um componente**: corrigimos o bug que fazia com que a área do canvas ficasse em branco ao abrir o formulário de configuração dos componentes.
+* **Cápsulas — Abas incorretas na prévia do formulário de configuração de Cápsulas:** corrigimos o bug que exibia abas incorretas na prévia do formulário de configuração de Cápsulas.
+* **Canvas — Melhoria na experiência de copiar e colar dentro do canvas:** corrigimos o bug que selecionava textos da página do canvas e os componentes de forma simultânea, impedindo a ação de colar de funcionar corretamente.&#x20;
+* **Canvas — Ajustes na performance do canvas:** realizamos melhorias e ajustes gerais de performance na interação com o canvas, visando proporcionar uma experiência mais fluida, o que também pode impactar positivamente na experiência de copiar e colar.
+* **OAuth — Animação de clique no indicador de etapas nas configurações do provedor OAuth:** corrigimos o bug em que uma animação era exibida ao clicar no indicador de etapas nas configurações do provedor OAuth, mesmo quando não era possível interagir com as etapas.
+* **Componentes — Cassandra DB:** corrigimos um bug que causava um erro na conversão do tipo de dado ao usar expressões Double Braces no componente.
+* **Componentes — Precisão numérica (Engine V2):** corrigimos um bug que causava um comportamento incorreto na utilização da feature de precisão numérica no Engine V2.
+
+
+
+***
+
+
+
+## Novidades 06/02/2024
 
 ## Monitor — Página Visão Geral (General Availability)
 
