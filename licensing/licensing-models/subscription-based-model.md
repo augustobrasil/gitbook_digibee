@@ -74,7 +74,7 @@ In the table below, you can see how many RTUs are consumed by each pipeline depl
 
 **Replicas** will consume as many RTUs as the multiplication of the number of replicas and the number of RTUs for the pipeline deployment size.
 
-inEvery time a pipeline is deployed on a given environment, it is said that a pipeline subscription has been consumed in that environment. Regardless of the number of available RTUs, you can only deploy as many unique pipelines as the number of available pipeline subscriptions.
+Every time a pipeline is deployed on a given environment, it is said that a pipeline subscription has been consumed in that environment. Regardless of the number of available RTUs, you can only deploy as many unique pipelines as the number of available pipeline subscriptions.
 
 ### Pipeline versions
 
