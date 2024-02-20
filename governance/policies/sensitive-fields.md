@@ -21,10 +21,6 @@ Na Digibee Integration Platform, você tem duas opções para configurar campos 
 
 ### Campos sensíveis para o nível de realm
 
-{% hint style="info" %}
-A Política de campos sensíveis está atualmente em fase beta e estará disponível na Digibee Integration Platform a partir de 19 de fevereiro de 2024.&#x20;
-{% endhint %}
-
 Para definir campos sensíveis para todo o _realm_, você deve configurar uma **Política de campos sensíveis**. Proceda da seguinte forma:
 
 1. Na página inicial da Plataforma, clique em **Configurações** no canto superior direito.
