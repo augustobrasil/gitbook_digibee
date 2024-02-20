@@ -1,117 +1,71 @@
 ---
 description: >-
-  Understand the Digibee Integration Platform audit functionality. All
-  operations performed are securely stored and displayed in the Audit submenu on
-  the administration page.
+  Learn more about how to view audit records on the Digibee Integration
+  Platform.
 ---
 
 # Audit
 
-In order to facilitate both the management and the mapping of actions, all operations performed within the Digibee Integration Platform are securely stored and displayed in the Audit submenu on the Platform's administration page.
+To facilitate both the management and registration of actions, all operations performed within the Digibee Integration Platform are securely stored and displayed on the Platform's Audit page. This helps you to track and monitor system changes and user activity, as well as investigate security incidents.
 
-## Period Selector <a href="#h_70bb83701a" id="h_70bb83701a"></a>
+To access the Audit page, click **Administration** in the upper right corner of the Platform home page and open the **Audit** submenu.
 
-![](../.gitbook/assets/audit\_1.png)
+<figure><img src="../.gitbook/assets/access-audit.gif" alt="Access the Administration section of the Platform and navigate to the Audit page."><figcaption></figcaption></figure>
 
-Right in the center of the “Audit” screen, you can update monitoring data by selecting the desired period from the options below:
+## Overview of the Audit page
 
-* 5 minutes
-* 15 minutes
-* 1 hour
-* **Specific:** If you click on “Specific”, you can select a time interval between two dates and two times.
+The Audit page offers functions with which you can filter and search the audit records and download them as a file to your own computer.
 
-## Actions Logs <a href="#h_4e1a0e4a55" id="h_4e1a0e4a55"></a>
+<figure><img src="../.gitbook/assets/audit-page.png" alt="Audit page overview."><figcaption><p>Audit page in the Digibee Integration Platform.</p></figcaption></figure>
 
-![](<../.gitbook/assets/Log de acoes EN (2).png>)
+### Time period
 
-This section displays the action logs according to the previously specified time interval and search parameters. The information about each log is organized in the report according to the following columns:
+At the top of the page, you can select the time period for your audit records.
 
-* **Start date:** The start date and time of the action;
-* **User:** The name and email address of the user who executed the action;
-* **Action:** The type of action executed, which can be:
-  * **All:** All types of actions;
-  * **View:** Logs of visualization actions;
-  * **Create:** Logs of creation actions;
-  * **Update:** Logs of update actions;
-  * **Remove/Archive:** Logs of delete or archive actions.
-* **Status:** The status of the action, which can be:
-  * **Success:** Actions executed successfully;
-  * **Error:** Actions where an error occurred during execution.
-* **Service:** Feature where the action was executed;
-* **Reference:** The ‘id’ of the object that was acted on. If the action log refers to a service and not to a specific object, this field is left blank.
-* **Description:** A brief description of the action executed.
+When selecting the time period, you can choose whether you want to see the audit records for the last **5 minutes**, **15 minutes**, **1 hour**, or a **specific** date range.
 
-**Important:** Some action logs will be presented with the Reference field blank, as these do not refer to actions performed on a specific object, but to services, which are the system entities that encompass the objects. The specific objects of a service have an ‘id’ and services, in turn, do not have an ‘id’.
+### Basic and advanced search
 
-## Search Fields <a href="#h_15d195dffa" id="h_15d195dffa"></a>
+Below the time period, you can perform a simple search in the search field by entering the email address of the user you want to search for and clicking **Search**. You can also click **Advanced search** to see more options and search for specific information. Complete all or some of the fields below to search:
 
-The "Search Field" has parameters that are able to help the user find a specific action log. Through them, you can specify attributes of the desired log to find it more precisely and quickly. They are:
+* **Description:** description of the record you want to search for.
+* **Action:** type of action performed, which can be: **All**, **Viewed**, **Created**, **Updated** or **Removed/Archived**.
+* **Reference:** ID of the object with which the user has interacted.
+* **Services:** feature in which the action was performed.
+* **Status:** status of the action, which can be: **All**, **Success**, or **Errors**.
 
-### Simple Search <a href="#h_333afe8c9e" id="h_333afe8c9e"></a>
+### Audit records
 
-![](../.gitbook/assets/audit\_3.png)
+Below the time period and the search field, you can see the audit records according to the previously defined time interval and search parameters. The information is organized in a table with the following columns:
 
-* **Email:** This parameter filters the logs by the email address of the user who has executed or requested the action.
+* **Start date:** start date and time of the action.
+* **User:** name and email address of the user who performed the action.
+* **Action:** type of action performed, which can be: **All**, **View**, **Create**, **Update** or **Remove/Archive**.
+* **Status:** status of the action, which can be **Success** for successfully executed actions or **Error** for actions where an error occurred during execution.
+* **Service:** feature in which the action was performed.
+* **Reference:** ID of the object with which the user has interacted. If the audit record refers to a service and not to a specific object, this field remains empty.
+* **Description:** short description of the action performed.
 
-### Advanced Search <a href="#h_ad86b7c44e" id="h_ad86b7c44e"></a>
+{% hint style="info" %}
+In some audit records, the **Reference** column is empty. This is because these records don’t refer to actions that were performed on a specific object. They refer to services, which are the system entities that encompass the objects. The specific objects of a service have an ID, while the services don’t have an ID.
+{% endhint %}
 
-![](<../.gitbook/assets/EN (2).png>)
+### Export audit records
 
-* **Description:** This parameter filters the logs according to the action description;
-* **Action**_**:**_ This parameter filters the logs by the type of action executed, which can be chosen from the following options:
-  * **All:** Displays all types of actions;
-  * **Viewed:** Displays only the logs of visualization actions;
-  * **Created:** Displays only the logs of creation actions;
-  * **Updated:** Displays only the logs of update actions;
-  * **Removed/Archived:** Displays only the logs of delete or archive actions.
-* **Reference:** The ‘id’ of the object that was acted on.
-* **Services:** This parameter filters the action according to the service, for example, according to the characteristic in which the action was executed, which can be:
-  * Account
-  * API Keys
-  * Audit
-  * Capsule
-  * Capsule Collection
-  * Capsule Group
-  * Capsule Header
-  * Completed Execution
-  * Component
-  * Consumer
-  * Deployment
-  * Entity
-  * Environment
-  * Event
-  * Global
-  * Library
-  * Monitor Overview
-  * Multi Instance
-  * OAuth Provider
-  * OAuth Provider (Legacy)
-  * Pipeline
-  * Pipeline Configuration
-  * Pipeline Log
-  * Pipeline Metric
-  * Pipeline Template
-  * Pipeline Tracking
-  * Platform Permission
-  * Platform User
-  * Project
-  * Realm
-  * Realm Parameter
-  * Relationship
-  * Retention
-  * Running Execution
-  * SAML Group Mapping
-  * SAML Scheme
-  * Scope
-  * Static Content
-  * Term of Acceptance
-  * Test Mode
-  * Trigger
-  * User
-  * User Group
-  * User Group (Binding)
-  * User Password
-  * User Profile
-  * User Role
-  * User Two-factor
-  * digibeectl
+After you have filtered the records, you can click the **Export** button to download a zipped folder with the audit records to your computer. In this folder you will find a CSV file with the last 50,000 audit records. The downloaded records correspond to those displayed on the page, taking into account the time period and search filters. The file contains the following information:
+
+* **dateStart:** start date of the request processing.
+* **dateEnd:** end date of the request processing.
+* **description:** description of the action performed.
+* **url:** address that was accessed.
+* **method:** HTTP method of the request performed.
+* **uri:** resource that was accessed.
+* **httpStatusCode:** HTTP status code of the request.
+* **status:** status of the operation performed.
+* **remoteAddress:** address that was accessed remotely.
+* **payload:** body of the request.
+* **queryParam:** parameter of the request.
+* **fullName:** name of the user who performed the operation.
+* **email:** email of the user who performed the operation.
+* **service:** backend service that was accessed.
+* **sourceIp:** IP address of the device that performed the operation.
