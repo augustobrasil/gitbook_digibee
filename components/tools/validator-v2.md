@@ -90,15 +90,3 @@ Se o parâmetro **Fail on Error** estiver ativado, um erro de status http 500 (_
 
 ```
 {% endcode %}
-
-Se o parâmetro **Fail on Error** estiver ativado, um erro de status http 500 (_Internal Server Erro_r) é retornado para todo erro que occorer quando o componente for executado:
-
-{% code overflow="wrap" %}
-```
-{
-  "timestamp": 1703004877585,
-  "error": "com.digibee.pipelineengine.elements.connector.ValidatorConnectorV2$PayloadNotMatchSchemaException: [{\"type\":\"required\",\"code\":\"1028\",\"path\":\"$\",\"schemaPath\":\"#/required\",\"arguments\":[\"nome\"],\"details\":null,\"message\":\"$.nome: is missing but it is required\"}]",
-  "code": 500
-}
-```
-{% endcode %}
