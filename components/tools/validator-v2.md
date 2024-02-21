@@ -91,16 +91,3 @@ If the **Fail on Error** parameter is activated, a status error http 500 (Intern
 
 ```
 {% endcode %}
-
-If the **Fail on Error** parameter is activated, a status error http 500 (Internal Server Error) is returned for every error that occurs when the component is executed:
-
-{% code overflow="wrap" %}
-```
-{
-  "timestamp": 1703004877585,
-  "error": "com.digibee.pipelineengine.elements.connector.ValidatorConnectorV2$PayloadNotMatchSchemaException: [{\"type\":\"required\",\"code\":\"1028\",\"path\":\"$\",\"schemaPath\":\"#/required\",\"arguments\":[\"nome\"],\"details\":null,\"message\":\"$.nome: is missing but it is required\"}]",
-  "code": 500
-}
-
-```
-{% endcode %}
