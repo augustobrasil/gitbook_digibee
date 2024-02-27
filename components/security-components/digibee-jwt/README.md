@@ -14,8 +14,6 @@ Dê uma olhada nos parâmetros de configuração do componente. Parâmetros supo
 
 <table data-full-width="true"><thead><tr><th>Parâmetro</th><th width="388.75">Descrição</th><th width="134">Valor padrão</th><th>Tipo de dado</th></tr></thead><tbody><tr><td><strong>Operation</strong></td><td>Operação que determina entre gerar (<em>Generate</em>) ou decodificar (<em>Decode</em>) um <em>token</em> JWT.</td><td><em>Generate</em></td><td><em>String</em></td></tr><tr><td><strong>Scopes</strong></td><td>escopos para o <em>token</em> JWT separados por vírgula (ex.: SCOPE1,SCOPE2,...,...).</td><td>N/A</td><td><em>String</em></td></tr><tr><td><strong>Expiration</strong></td><td>tempo de expiração (em milissegundos). A expiração máxima é de 365 dias (31536000000 milissegundos).</td><td>N/A</td><td>Inteiro</td></tr><tr><td><strong>Fail On Error</strong></td><td>se a opção estiver habilitada, a execução do <em>pipeline</em> com erro será interrompida; do contrário, a execução continua.</td><td><em>False</em></td><td>Booleano</td></tr></tbody></table>
 
-<figure><img src="../../../.gitbook/assets/jwt-doc.gif" alt=""><figcaption></figcaption></figure>
-
 ## Fluxo de mensagens <a href="#fluxo-de-mensagens" id="fluxo-de-mensagens"></a>
 
 ### Operação Generate <a href="#operao-generate" id="operao-generate"></a>
