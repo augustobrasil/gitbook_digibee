@@ -14,8 +14,6 @@ Take a look at the configuration options for the component. Parameters supported
 
 <table data-full-width="true"><thead><tr><th>Parameter</th><th width="327">Description</th><th width="150.75">Default value</th><th>Data type</th></tr></thead><tbody><tr><td><strong>Operation</strong></td><td>Operation that determines whether to generate or decode a JWT token.</td><td>Generate</td><td>String</td></tr><tr><td><strong>Scopes</strong></td><td>Scopes for the JWT token separated by comma (e.g., SCOPE1, SCOPE2, ...).</td><td>N/A</td><td>String</td></tr><tr><td><strong>Expiration</strong></td><td>Expiration time for the JWT token in milliseconds. Maximum is 365 days (31,536,000,000 milliseconds).</td><td>N/A</td><td>Integer</td></tr><tr><td><strong>Fail On Error</strong></td><td>If enabled, interrupts the pipeline execution on error; otherwise, result shows "success" as false.</td><td>False</td><td>Boolean</td></tr></tbody></table>
 
-<figure><img src="../../../.gitbook/assets/jwt-doc.gif" alt=""><figcaption></figcaption></figure>
-
 ## Messages flow <a href="#messages-flow" id="messages-flow"></a>
 
 ### Generate Operation <a href="#generate-operation" id="generate-operation"></a>

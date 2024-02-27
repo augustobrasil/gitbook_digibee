@@ -363,7 +363,7 @@
 * [Supported databases](platform/supported-databases.md)
 * [digibeectl](platform/digibeectl/README.md)
   * [digibeectl - FAQ](platform/digibeectl/digibeectl-faq.md)
-  * [How to obtain digibeectl configuration file](platform/digibeectl/get-the-configuration-file.md)
+  * [How to obtain digibeectl configuration file](platform/digibeectl/gerando-novo-token.md)
 * [Zero Trust Network Access on the Digibee Integration Platform](platform/zero-trust-network-access-on-the-digibee-integration-platform/README.md)
   * [ZTNA vs. VPN](platform/zero-trust-network-access-on-the-digibee-integration-platform/ztna-vs.-vpn.md)
   * [ZTNA architecture on the Digibee Integration Platform](platform/zero-trust-network-access-on-the-digibee-integration-platform/ztna-architecture-on-the-digibee-integration-platform.md)
