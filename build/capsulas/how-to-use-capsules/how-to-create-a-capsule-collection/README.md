@@ -19,14 +19,13 @@ Siga estas etapas para criar uma coleção:
 <figure><img src="../../../../.gitbook/assets/criar-coleção-1 (1).png" alt=""><figcaption></figcaption></figure>
 
 4. No formulário, preencha os campos **Nome da Coleção** e **Descrição da Coleção**.
-5. Ative a opção **Coleção Aberta** para permitir que usuários fora da sua organização usem as Cápsulas da coleção. Caso contrário, deixe a opção desativada.
-6. Na seção **Cabeçalho**, selecione um cabeçalho existente na lista. Os cabeçalhos ajudam a identificar a qual coleção uma Cápsula pertence. Para adicionar um novo cabeçalho à lista, siga os passos a seguir:
+5. Na seção **Cabeçalho**, selecione um cabeçalho existente na lista. Os cabeçalhos ajudam a identificar a qual coleção uma Cápsula pertence. Para adicionar um novo cabeçalho à lista, siga os passos a seguir:
    1. Clique em **Configurações** no canto superior direito da página inicial da plataforma.
    2. Abra a opção **Cápsulas** na barra lateral esquerda.
    3. Clique em **Criar** para adicionar o cabeçalho. Leia mais sobre as [dimensões de um cabeçalho de Cápsulas](https://docs.digibee.com/documentation/v/pt-br/build/capsulas/como-usar-capsulas/como-criar-uma-colecao-de-capsulas/dimensoes-do-cabecalho-da-capsula).
    4. Depois que adicionar o cabeçalho, você pode selecioná-lo no formulário de criação da coleção.
-7. Em **Cor de fundo**, selecione uma cor que represente a coleção. Essa cor será utilizada nos ícones das Cápsulas depois que forem salvas.
-8. Clique em **Salvar** para adicionar a nova coleção à lista na barra lateral esquerda.
+6. Em **Cor de fundo**, selecione uma cor que represente a coleção. Essa cor será utilizada nos ícones das Cápsulas depois que forem salvas.
+7. Clique em **Salvar** para adicionar a nova coleção à lista na barra lateral esquerda.
 
 Depois que a coleção estiver criada, passe o mouse sobre o nome da coleção na barra lateral esquerda e clique no botão com o ícone de três pontos para exibir as seguintes opções:
 
