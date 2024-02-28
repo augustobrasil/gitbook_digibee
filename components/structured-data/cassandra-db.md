@@ -22,7 +22,11 @@ CQL (Cassandra Query Language), as the name implies, is the query language for C
 
 #### Input
 
-![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.34.15 (1).png>)
+* **Account:** cassandra-acc
+* **Operation:** Insert
+* **Connection String:** `{{global.cassandra-url}}`
+* **Query:** `INSERT INTO CUSTOMER (id, first_name) VALUES ({{ message.id }}, {{ message.name }});`
+* **Fail On Error:** false
 
 #### Output
 
@@ -38,7 +42,11 @@ CQL (Cassandra Query Language), as the name implies, is the query language for C
 
 #### Input
 
-![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.35.00 (1).png>)
+* **Account:** cassandra-acc
+* **Operation:** Update
+* **Connection String:** `{{global.cassandra-url}}`
+* **Query:** `UPDATE CUSTOMER SET first_name = {{ message.newName }} WHERE id = {{ message.id }};`
+* **Fail On Error:** false
 
 #### Output
 
@@ -57,7 +65,11 @@ CQL (Cassandra Query Language), as the name implies, is the query language for C
 
 #### Input
 
-![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.35.21 (1).png>)
+* **Account:** cassandra-acc
+* **Operation:** Select
+* **Connection String:** `{{global.cassandra-url}}`
+* **Query:** `SELECT * FROM CUSTOMER WHERE id = {{ message.if }};`
+* **Fail On Error:** false
 
 #### **Output**
 
@@ -77,7 +89,11 @@ CQL (Cassandra Query Language), as the name implies, is the query language for C
 
 #### Input
 
-![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.39.07 (1).png>)
+* **Account:** cassandra-acc
+* **Operation:** Delete
+* **Connection String:** `{{global.cassandra-url}}`
+* **Query:** `DELETE FROM CUSTOMER WHERE id = {{ message.if }};`
+* **Fail On Error:** false
 
 #### Output
 
