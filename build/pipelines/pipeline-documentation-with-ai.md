@@ -22,7 +22,7 @@ To generate the documentation, click on the **Download documentation** button, a
 
 OpenAI works with [tokens](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them), which are “common sequences of characters found in a set of text”. These tokens are limited depending on the model, and when they are reached, the answer is not generated.
 
-Our AI Generator for Pipeline Documentation has a limit of 16000 tokens. In a pipeline, this number corresponds to approximately 90-110 components. Once these tokens are reached, the pipeline documentation is not generated and an error message is displayed on the screen.
+Our AI Generator for Pipeline Documentation has a limit of 128000 tokens per request. In a pipeline, this number corresponds to approximately 500-600 components. Once these tokens are reached, the pipeline documentation is not generated and an error message is displayed on the screen.
 
 {% hint style="info" %}
 The tokens are shared to all Digibee accounts and reset every day.
