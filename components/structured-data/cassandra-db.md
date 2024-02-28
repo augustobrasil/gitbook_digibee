@@ -22,7 +22,11 @@ O CQL (_Cassandra Query Language_), como já diz o nome, é a linguagem de consu
 
 #### Entrada
 
-![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.34.40 (1) (1).png>)
+* **Account:** cassandra-acc
+* **Operation:** Insert
+* **Connection String:** `{{global.cassandra-url}}`
+* **Query:** `INSERT INTO CUSTOMER (id, first_name) VALUES ({{ message.id }}, {{ message.name }});`
+* **Fail On Error:** false
 
 #### Saída&#x20;
 
@@ -36,7 +40,11 @@ O CQL (_Cassandra Query Language_), como já diz o nome, é a linguagem de consu
 
 #### **Entrada**
 
-![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.35.00 (1).png>)
+* **Account:** cassandra-acc
+* **Operation:** Update
+* **Connection String:** `{{global.cassandra-url}}`
+* **Query:** `UPDATE CUSTOMER SET first_name = {{ message.newName }} WHERE id = {{ message.id }};`
+* **Fail On Error:** false
 
 #### Saída
 
@@ -49,12 +57,16 @@ O CQL (_Cassandra Query Language_), como já diz o nome, é a linguagem de consu
 ### Operação Select
 
 {% hint style="info" %}
-**Nota:** Os bancos de dados Cassandra ou _Keyspaces_ da AWS podem retornar automaticamente os resultados de forma paginada caso possuam um número considerável de registros. A Digibee Integration Platform trata essa paginação de forma automática, para que o resultado seja consolidado na mensagem de saída do componente como uma consulta atômica. Isso elimina a necessidade de qualquer configuração ou ações adicionais por parte do usuário para obter esses resultados.
+Os bancos de dados Cassandra ou _Keyspaces_ da AWS podem retornar automaticamente os resultados de forma paginada caso possuam um número considerável de registros. A Digibee Integration Platform trata essa paginação de forma automática, para que o resultado seja consolidado na mensagem de saída do componente como uma consulta atômica. Isso elimina a necessidade de qualquer configuração ou ações adicionais por parte do usuário para obter esses resultados.
 {% endhint %}
 
 #### Entrada
 
-![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.35.21 (1).png>)
+* **Account:** cassandra-acc
+* **Operation:** Select
+* **Connection String:** `{{global.cassandra-url}}`
+* **Query:** `SELECT * FROM CUSTOMER WHERE id = {{ message.if }};`
+* **Fail On Error:** false
 
 #### **Saída**
 
@@ -74,7 +86,11 @@ O CQL (_Cassandra Query Language_), como já diz o nome, é a linguagem de consu
 
 #### Entrada
 
-![](<../../.gitbook/assets/Screen Shot 2022-05-09 at 17.39.07 (1).png>)
+* **Account:** cassandra-acc
+* **Operation:** Delete
+* **Connection String:** `{{global.cassandra-url}}`
+* **Query:** `DELETE FROM CUSTOMER WHERE id = {{ message.if }};`
+* **Fail On Error:** false
 
 #### Saída
 
