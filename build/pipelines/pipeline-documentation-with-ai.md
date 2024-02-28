@@ -26,7 +26,7 @@ A documentação é gerada somente em inglês.
 
 A OpenAI trabalha com [_tokens_](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them), que são "sequências comuns de caracteres encontradas em um conjunto de texto". Esses _tokens_ são limitados dependendo do modelo e, quando atingidos, a resposta não é gerada.
 
-Nosso Gerador de Documentação de Pipeline com IA tem um limite de 16.000 _tokens_. Em um _pipeline_, esse número corresponde a aproximadamente 90-110 componentes. Uma vez que esses _tokens_ são atingidos, a documentação do _pipeline_ não é gerada, e uma mensagem de erro é exibida na tela.
+Nosso Gerador de Documentação de Pipeline com IA tem um limite de 128.000 _tokens_. Em um _pipeline_, esse número corresponde a aproximadamente 500-600 componentes. Uma vez que esses _tokens_ são atingidos, a documentação do _pipeline_ não é gerada, e uma mensagem de erro é exibida na tela.
 
 {% hint style="info" %}
 Os _tokens_ são compartilhados por todas as contas da Digibee e são redefinidos diariamente.
