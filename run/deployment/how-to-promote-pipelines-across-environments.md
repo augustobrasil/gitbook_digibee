@@ -16,7 +16,7 @@ In the test environment or other non-production environment, select a deployed p
 
 There you will find the **Promote to** button, click it and follow the instructions that appear.
 
-<figure><img src="../../../.gitbook/assets/01 - PROMOTE TO.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/01 - PROMOTE TO.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Promote to
 
@@ -24,17 +24,17 @@ When you click **Promote to**, a side sheet is displayed with the pipeline deplo
 
 Once you have specified the settings, click the **PROMOTE** button to keep the action.
 
-<figure><img src="../../../.gitbook/assets/02 - Promote gif 1.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/02 - Promote gif 1.gif" alt=""><figcaption></figcaption></figure>
 
 You can also verify the settings configured in the previous step by comparing the pipeline in the test environment with the pipeline information that will be deployed in another environment. After that, the number of licenses consumed by this action is also displayed.
 
-<figure><img src="../../../.gitbook/assets/03 - CONFIRMATION.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/03 - CONFIRMATION.jpg" alt=""><figcaption></figcaption></figure>
 
 If you select **PROMOTE**, the selected pipeline from the test or other non-production environment is deployed to the desired environment and project. However, if you click **CANCEL**, you return to the previous page of the deployment configuration without performing any action.
 
 After you promote a pipeline, you are redirected to the Run page of the selected environment and project.
 
-<figure><img src="../../../.gitbook/assets/04 - LAST PAGE.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/04 - LAST PAGE.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Checking the current status of the pipeline
 
