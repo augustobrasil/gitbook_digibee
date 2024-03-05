@@ -1,11 +1,13 @@
 ---
-description: Saiba mais sobre as Chaves de API Internas da Digibee Integration Platform.
+description: >-
+  Saiba mais sobre a Política de acesso à APIs internas da Digibee Integration
+  Platform.
 ---
 
-# Chaves de API Internas
+# Política de acesso à APIs internas
 
 {% hint style="info" %}
-A funcionalidade Chaves de API Internas está atualmente em fase beta. Entenda mais sobre o[ Programa Beta](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta).
+A Política de acesso à APIs internas está atualmente em fase beta. Entenda mais sobre o[ Programa Beta](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta).
 {% endhint %}
 
 As chaves de API internas são padrões de segurança usados para chamadas de API que permitem acesso seguro aos pipelines.

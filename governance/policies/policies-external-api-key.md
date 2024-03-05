@@ -1,14 +1,15 @@
 ---
-description: Saiba mais sobre as Chaves de API Externas da Digibee Integration Platform.
+description: >-
+  Saiba mais sobre a Política de acesso à APIs externas da Digibee Integration
+  Platform.
 ---
 
-# Chaves de API Externas
+# Política de acesso à APIs externas
 
 {% hint style="info" %}
-A funcionalidade Chaves de API Externas está atualmente em fase beta. Entenda mais sobre o[ Programa Beta](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta).
+A Política de acesso à APIs externas está atualmente em fase beta. Entenda mais sobre o[ Programa Beta](https://docs.digibee.com/documentation/v/pt-br/geral/programa-beta).
 {% endhint %}
 
-\
 As chaves de API externas são padrões de segurança usados para chamadas de API que permitem acesso seguro aos pipelines pela Internet via protocolo HTTP.
 
 Você pode escolher entre 3 opções para cada ambiente, como descrito abaixo:

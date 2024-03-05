@@ -179,9 +179,9 @@
 ## GOVERNANÇA <a href="#governance" id="governance"></a>
 
 * [Políticas (beta)](governance/policies/README.md)
-  * [Chaves de API Externas](governance/policies/policies-external-api-key.md)
-  * [Chaves de API Internas](governance/policies/policies-internal-api-key.md)
-  * [Campos sensíveis](governance/policies/sensitive-fields.md)
+  * [Política de acesso à APIs internas](governance/policies/policies-internal-api-key.md)
+  * [Política de acesso à APIs externas](governance/policies/policies-external-api-key.md)
+  * [Política de campos sensíveis](governance/policies/sensitive-fields.md)
 
 ## Licenciamento <a href="#licensing" id="licensing"></a>
 
