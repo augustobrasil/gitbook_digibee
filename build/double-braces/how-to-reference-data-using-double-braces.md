@@ -1,5 +1,7 @@
 ---
-description: Aprenda diferentes maneiras de usar Double Braces
+description: >-
+  Saiba mais sobre as funções Double Braces e como usá-las na Digibee
+  Integration Platform.
 ---
 
 # Como referenciar dados usando Double Braces
@@ -8,7 +10,7 @@ Você pode usar Double Braces de várias maneiras: para acessar os dados recebid
 
 Veja como você pode fazer isso:
 
-## Como referenciar dados JSON <a href="#id-87tlux10inbm" id="id-87tlux10inbm"></a>
+## Referenciando dados JSON <a href="#id-87tlux10inbm" id="id-87tlux10inbm"></a>
 
 Suponha que um componente receba os seguintes dados JSON sobre um funcionário chamado João Silva:
 
@@ -43,7 +45,7 @@ Aqui:
 * **message** é uma palavra reservada que se refere aos dados que foram recebidos pelo componente em questão, conhecido como _payload_.
 * **$** indica que você está se referindo a todo o _payload_.
 
-### Fazendo referência a propriedades específicas <a href="#id-266jiko3l5ec" id="id-266jiko3l5ec"></a>
+### Referenciando propriedades específicas <a href="#id-266jiko3l5ec" id="id-266jiko3l5ec"></a>
 
 Use a seguinte sintaxe para fazer referência a propriedades específicas de um JSON, substituindo os termos entre símbolos de menor e maior que pelo valor desejado:
 
@@ -162,3 +164,22 @@ Estes são todos os metadados que você pode acessar com Double Braces:
 | execution.timeout        | _Timeout_ configurado do _pipeline_                                                                                                                                                                       |
 | execution.startTimestamp | _Timestamp_ do início da execução pipeline (em milissegundos, no formato UNIX Epoch)                                                                                                                      |
 | execution.redelivery     | Booleano. _True_ se esta execução for uma nova tentativa de execução. _False,_ se não. Aprenda mais sobre reprocessamento em [nosso artigo sobre o _Pipeline Engine_](../../plataforma/pipeline-engine/). |
+
+## Referenciando propriedades de Cápsula
+
+Na configuração da Cápsula, você pode definir propriedades para parâmetros e utilizá-los na configuração de componentes dentro do fluxo da Cápsula.
+
+Use a seguinte sintaxe para fazer referência a uma propriedade da Cápsula:
+
+```
+{{ capsule.<property> }}
+```
+
+* **capsule** é uma palavra reservada que se refere às propriedades da Cápsula.
+* **property** é a propriedade definida no parâmetro no formulário de configuração da Cápsula.
+
+Por exemplo, se você criou uma propriedade chamada `mensagemErro` no formulário de configuração da Cápsula e quiser referenciá-la em um componente dentro da Cápsula, use a seguinte notação:
+
+```
+{{ capsule.mensagemErro }}
+```
