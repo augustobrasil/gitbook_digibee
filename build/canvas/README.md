@@ -19,7 +19,12 @@ No formulário **Configuração do **_**pipeline**_, se necessário, configure o
 
 * **Descrição**: descrição do _pipeline_.
 * **“É multi-instância?”**: ative esta opção caso o _pipeline_ a ser criado seja multi-instância. Para saber mais sobre essa funcionalidade, leia o [artigo Multi-instância](https://docs.digibee.com/documentation/v/pt-br/configurations/multi-instancia).
-* **Campo sensível:** dados que precisam ser mascarados durante a execução do fluxo.
+* **Campo sensível:** campos de dados que devem ser ofuscados nos [_logs_ do _pipeline_](../../monitor/pipeline-logs.md) com o conjunto de caracteres "\*\*\*". O caractere especial hífen \[-] é permitido no nome do campo sensível. Outros caracteres especiais, acentos e cedilha \[ç] não são permitidos.&#x20;
+
+{% hint style="info" %}
+Se você configurar campos sensíveis na configuração do _pipeline_, eles se aplicam apenas a este _pipeline_ específico. Se deseja configurar campos sensíveis para todos os _pipelines_ no seu _realm_, por favor, consulte a documentação da [Política de campos sensíveis](../../governance/policies/sensitive-fields.md).
+{% endhint %}
+
 * _**InSpec**_**:** entrada do fluxo do _pipeline_.
 * _**OutSpec**_**:** saída do fluxo do _pipeline_.
 
