@@ -1,8 +1,7 @@
 ---
 description: >-
-  Discover Double Braces functions in the Digibee iPaaS and how to use them.
-  These functions speed up integrations by reducing time needed and reducing
-  complexity.
+  Learn more about Double Braces functions and how to use them in the Digibee
+  Integration Platform.
 ---
 
 # How to reference data using Double Braces
