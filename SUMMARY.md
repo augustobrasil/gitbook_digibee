@@ -179,9 +179,9 @@
 ## GOVERNANCE
 
 * [Policies (beta)](governance/policies/README.md)
-  * [External API Key](governance/policies/external-api-key.md)
-  * [Internal API Key](governance/policies/internal-api-key.md)
-  * [Sensitive fields](governance/policies/sensitive-fields.md)
+  * [External API access policy](governance/policies/external-api-key.md)
+  * [Internal API access policy](governance/policies/internal-api-key.md)
+  * [Sensitive fields policy](governance/policies/sensitive-fields.md)
 
 ## Licensing
 

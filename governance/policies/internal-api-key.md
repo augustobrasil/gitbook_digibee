@@ -2,10 +2,10 @@
 description: Learn more about Internal API Keys on the Digibee Integration Platform.
 ---
 
-# Internal API Key
+# Internal API access policy
 
 {% hint style="info" %}
-The Internal API Keys feature is currently in beta phase. Learn more about the[ Beta Program](https://docs.digibee.com/documentation/general/beta-program).
+The Internal API access policy is currently in beta phase. Learn more about the[ Beta Program](https://docs.digibee.com/documentation/general/beta-program).
 {% endhint %}
 
 An Internal API key is a security standard used for API calls, allowing pipelines to be safely accessed.

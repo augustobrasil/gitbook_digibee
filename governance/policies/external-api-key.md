@@ -2,10 +2,10 @@
 description: Learn more about External API Keys on the Digibee Integration Platform.
 ---
 
-# External API Key
+# External API access policy
 
 {% hint style="info" %}
-The External API Keys feature is currently in beta phase. Learn more about the[ Beta Program](https://docs.digibee.com/documentation/general/beta-program).
+The External API access policy is currently in beta phase. Learn more about the[ Beta Program](https://docs.digibee.com/documentation/general/beta-program).
 {% endhint %}
 
 External API key is a security standard used for API calls, allowing pipelines to be safely accessed over the Internet via HTTP.
