@@ -165,3 +165,22 @@ These are all the metadata you can access with Double Braces:
 | execution.timeout        | Configurated pipeline timeout                                                                                                                                   |
 | execution.startTimestamp | Pipeline start timestamp (in milliseconds, in UNIX Epoch format)                                                                                                |
 | execution.redelivery     | Boolean. True if this execution is an execution retry. False if not. Learn more about retries on our [Pipeline Engine article](../../platform/pipeline-engine/) |
+
+## Referencing Capsule property
+
+In the Capsule configuration, you can define properties for parameters and use them in the configuration of components within the Capsule flow.
+
+Use the following syntax to refer to a Capsule property:
+
+```
+ {{ capsule.<property> }}
+```
+
+* **capsule** is a reserved word that refers to the Capsule properties.
+* **property** is the property set in the parameter within the Capsule configuration form.
+
+For example, if you have created a property called `messageError` in the Capsule configuration form and want to reference it in a component within the Capsule, use the following notation:
+
+```
+{{ capsule.messageError }}
+```
