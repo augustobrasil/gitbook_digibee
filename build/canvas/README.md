@@ -18,7 +18,12 @@ At the **Pipeline configuration** form, if necessary, configure the following fi
 
 * **Description**: pipeline description.
 * **“Is it multi-instance?”**: activate this option if the pipeline to be created is multi-instance. To learn more about this feature, read the article [Multi-Instance](../../settings/multi-instance/).
-* **Sensitive field:** data fields that should be hidden during the execution of the flow.
+* **Sensitive field:** data fields that should be obfuscated in the pipeline logs with the character set "\*\*\*". The special character hyphen \[-] is allowed in the name of the sensitive field. Other special characters, accents, and cedilla \[ç] are not allowed.&#x20;
+
+{% hint style="info" %}
+If you configure sensitive fields in the pipeline configuration, they only apply to this specific pipeline. If you want to configure sensitive fields for all pipelines in your realm, please read the [Sensitive fields policy](../../governance/policies/sensitive-fields.md) documentation.
+{% endhint %}
+
 * **InSpec:** pipeline input.
 * **OutSpec:** pipeline output.
 
