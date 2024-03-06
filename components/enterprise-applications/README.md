@@ -6,6 +6,6 @@ Esses componentes são geralmente utilizadas em grande escala, abrangendo múlti
 \
 Aqui estão os artigos dessa sessão:&#x20;
 
-{% embed url="https://docs.digibee.com/documentation/components/enterprise-applications/salesforce" %}
+{% embed url="https://docs.digibee.com/documentation/v/pt-br/components/enterprise-applications/salesforce" %}
 
 {% embed url="https://docs.digibee.com/documentation/v/pt-br/components/untitled/sap" %}
