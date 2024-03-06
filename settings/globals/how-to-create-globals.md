@@ -22,10 +22,15 @@ Siga estas etapas para criar uma variável global:
   * **JDBC:** verifica se é uma conexão de _string_ válida.
   * **Email:** verifica se é um email válido.
   * **ID:** verifica se apenas números são inseridos.
-  * **Other:** aceita qualquer valor. No entanto, como _Globals_ não possui um método de criptografia, recomendamos fortemente que você não adicione informações confidenciais, como senhas e _tokens_.
+  * **Other:** aceita qualquer valor. No entanto, como _Globals_ não possui um método de criptografia, recomendamos que você não adicione informações confidenciais, como senhas e _tokens_.
+
+{% hint style="info" %}
+Cada categoria aceita somente valores únicos, exceto a categoria **Other**. Se precisar adicionar uma lista de informações, por favor escolha a categoria **Other**.
+{% endhint %}
+
 * **Descrição:** um breve texto para descrever o propósito da variável global.
-* **Ambiente Prod:** o valor da variável global no ambiente de produção.
-* **Ambiente Test:** o valor da variável global no ambiente de teste.
+* **Ambiente Prod:** o valor da variável global no ambiente de produção. Pode conter até 10.000 caracteres.
+* **Ambiente Test:** o valor da variável global no ambiente de teste. Pode conter até 10.000 caracteres.
 * **Valor de outros ambientes:** se você tiver outros ambientes em seu _realm_, eles também serão listados.
 
 {% hint style="danger" %}
