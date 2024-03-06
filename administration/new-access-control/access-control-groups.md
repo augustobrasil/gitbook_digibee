@@ -27,9 +27,9 @@ This table shows the group **name**, **description,** and the **number of member
 
 To create a group:
 
-1. Click on the **Create** button, in the upper right corner;
-2. Fill in the group name and description;
-3. Click on the **+** icon to assign members to the new group (optional);
+1. Click on the **Create** button, in the upper right corner.
+2. Fill in the group name and description.
+3. Click on the **+** icon to assign members to the new group (optional).
 
 {% hint style="info" %}
 You can add or remove members from a group at any time.
@@ -45,12 +45,12 @@ You must create the desired role before you bind it to a group. [Learn more abou
 
 To bind a role to a group:
 
-1. Use the search bar or search the table for the group you want to assign a role to;
-2. Click on the pencil icon in the **Actions** column;
-3. On the **Permissions** tab, click on **+Binding**;
-4. Select the desired role and the environment to which you want to assign the permissions of the role;
-5. Click on **Save**;
-6. Write a note describing the reasons for the changes you just made;
+1. Use the search bar or search the table for the group you want to assign a role to.
+2. Click on the pencil icon in the **Actions** column.
+3. On the **Permissions** tab, click on **Binding.**
+4. Select the desired role and the environment to which you want to assign the permissions of the role.
+5. Click on **Save.**
+6. Write a note describing the reasons for the changes you just made.
 7. Click on **Edit** to confirm the action.
 
 ### How to archive a group
@@ -59,9 +59,9 @@ If you archive a group, it becomes inactive. The members of an archived group wi
 
 To archive a group:
 
-1. Use the search bar or search the table for the group you want to archive;
-2. Click on the box icon in the **Actions** column;
-3. Write a note describing the reasons for archiving the group;
+1. Use the search bar or search the table for the group you want to archive.
+2. Click on the box icon in the **Actions** column.
+3. Write a note describing the reasons for archiving the group.
 4. Click on **Archive**.
 
 ### How to restore a group
@@ -72,9 +72,9 @@ Also, a group keeps the same users who are already part of it as long as they ar
 
 To restore a group:
 
-1. Click on **Archived** in the dropdown menu on the search bar to see a list of all archived groups;
-2. Use the search bar to find a specific group you want to restore or search for it in the available list;
-3. Click on the **open box** icon in the group you want to restore;
+1. Click on **Archived** in the dropdown menu on the search bar to see a list of all archived groups.
+2. Use the search bar to find a specific group you want to restore or search for it in the available list.
+3. Click on the **open box** icon in the group you want to restore.
 4. Click the **Restore** button on the dialog box to confirm the action.
 
 <figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption><p><em>Group restoration</em></p></figcaption></figure>
@@ -85,11 +85,11 @@ Besides creating your own groups, you can also use Digibee’s default groups. E
 
 Unlike [system roles](https://docs.digibee.com/documentation/administration/new-access-control/access-control-roles), default groups can be modified, deleted, and archived.
 
-| Group name          | System roles                                                                                                                                                                                                                                                                       |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Developers          | Alert Viewer, Pipeline Builder, Capsule Builder, Pipeline Manager, and Deployment Viewer                                                                                                                                                                                           |
-| Deployer            | Deployment Manager, and Deployment Viewer                                                                                                                                                                                                                                          |
-| Access managers     | IdP Access Manager, Users Manager, Roles Manager, Groups Manager, and Projects Manager                                                                                                                                                                                             |
-| Governance managers | Account Viewer, Alert Manager, Global Manager, Global Viewer, Capsule Manager, Capsule Publisher, Pipeline Manager, Audit Viewer, Multi instance Manager, Multi instance Viewer, API Key Manager, API Key Viewer, Relationship Manager, Relationship Viewer, and Licensing Viewer. |
-| Credential managers | Account Manager and API Key Manager                                                                                                                                                                                                                                                |
-| Support             | Alert Manager, Pipeline Logs Viewer, Pipeline Metrics Viewer, Running Executions Manager, Running Executions Viewer, Metrics Viewer, and Pipeline Executor                                                                                                                         |
+| Group name          | System roles                                                                                                                                                                                                                                                                                                                                               |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| developers          | <p>alert-viewer <br>capsule-builder <br>deployment-viewer <br>pipeline-builder <br>pipeline-documentation-viewer <br>pipeline-documentation-manager <br>pipeline-manager</p>                                                                                                                                                                               |
+| deployers           | <p>deployment-manager <br>deployment-viewer</p>                                                                                                                                                                                                                                                                                                            |
+| access-managers     | <p>groups-manager <br>idp-access-manager <br>roles-manager <br>projects-manager</p><p>users-manager</p>                                                                                                                                                                                                                                                    |
+| governance-managers | <p>account-viewer</p><p>alert-manager</p><p>api-key-manager</p><p>api-key-viewer</p><p>audit-viewer</p><p>capsule-manager</p><p>capsule-publisher</p><p>global-manager</p><p>global-viewer</p><p>licensing-viewer</p><p>multi-instance-manager</p><p>multi-instance-viewer</p><p>pipeline-manager</p><p>relationship-manager</p><p>relationship-viewer</p> |
+| credential-managers | <p>account-manager<br>api-key-manager</p>                                                                                                                                                                                                                                                                                                                  |
+| support             | <p>alert-manager</p><p>logs-viewer</p><p>metrics-viewer</p><p>pipeline-executor</p><p>running-executions-manager</p><p>running-executions-viewer</p>                                                                                                                                                                                                       |
