@@ -38,6 +38,4 @@ Os dados utilizados em _Globals_ podem ser visualizados por qualquer usuário co
 {% endhint %}
 
 5. Clique em **Salvar**.
-6.  Um pop-up abrirá na página. No campo **Mensagem de confirmação**, escreva “Quero criar a global” e clique em **Criar**.&#x20;
-
-    \
+6. Um pop-up abrirá na página. No campo **Mensagem de confirmação**, escreva “Quero criar a global” e clique em **Criar**.&#x20;
