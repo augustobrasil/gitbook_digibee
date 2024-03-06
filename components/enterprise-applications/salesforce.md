@@ -4,10 +4,10 @@ description: >-
   Integration Platform.
 ---
 
-# Salesforce (Restricted Beta)
+# Salesforce (Beta)
 
 {% hint style="info" %}
-This feature is currently in Restricted Beta phase and is only available to specific customers. Learn more about the [Beta Program](../../general/beta-program.md).
+This feature is currently in Beta phase. Learn more about the [Beta Program](../../general/beta-program.md).
 {% endhint %}
 
 The **Salesforce** component allows you to perform operations on the Salesforce platform.&#x20;
