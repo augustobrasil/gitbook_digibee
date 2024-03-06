@@ -4,6 +4,7 @@
   * [Visão Geral do Layout da Plataforma](readme/visao-geral-do-layout-da-plataforma.md)
 * [Release notes](release-notes/README.md)
   * [Release notes 2024](release-notes/release-notes-2024/README.md)
+    * [Março](release-notes/release-notes-2024/marco.md)
     * [Fevereiro](release-notes/release-notes-2024/fevereiro.md)
     * [Janeiro](release-notes/release-notes-2024/janeiro.md)
   * [Release notes 2023](release-notes/release-notes-2023/README.md)
