@@ -46,7 +46,7 @@ Vídeo da feature de novas permissões para gerenciamento de projetos&#x20;
 
 
 
-Nós também solucionamos alguns bugs:
+### Nós também solucionamos alguns bugs:
 
 \
 
