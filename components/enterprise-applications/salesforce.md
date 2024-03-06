@@ -7,7 +7,7 @@ description: >-
 # Salesforce (Beta)
 
 {% hint style="info" %}
-Esta funcionalidade está atualmente em fase Beta e disponível somente para clientes específicos. Saiba mais sobre o [Programa Beta](https://docs.digibee.com/documentation/v/pt-br/general/programa-beta).
+Esta funcionalidade está atualmente em fase Beta. Saiba mais sobre o [Programa Beta](https://docs.digibee.com/documentation/v/pt-br/general/programa-beta).
 {% endhint %}
 
 O componente **Salesforce** permite que você realize operações na plataforma Salesforce.
