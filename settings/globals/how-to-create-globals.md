@@ -23,9 +23,14 @@ Follow these steps to create a Global variable:
   * **Email:** checks whether it’s a valid email.
   * **ID:** checks whether only numbers are entered.
   * **Other:** accepts any input. However, as Globals don’t have an encryption method, we strongly recommend that you don't add sensitive information such as passwords and tokens.
+
+{% hint style="info" %}
+Each category can only have unique values, except for the **Other** category. If you need to add a list of information, please choose the **Other** category.
+{% endhint %}
+
 * **Description:** a brief text to describe the Global’s purpose.
-* **Prod environment:** Global's value in the prod environment.
-* **Test environment:** Global's value in the test environment.
+* **Prod environment:** Global's value in the prod environment. The value can contain up to 10,000 characters.
+* **Test environment:** Global's value in the test environment. The value can contain up to 10,000 characters.
 * **Other environments value:** if you have other environments in your realm, they will also be listed.
 
 {% hint style="danger" %}
