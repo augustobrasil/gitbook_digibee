@@ -12,7 +12,7 @@ Follow these steps to create a Global variable:
 2. In the **Settings** menu, click **Globals**.
 3. Click the **Create** button.
 
-<figure><img src="../../.gitbook/assets/create-global.gif" alt="Navigating to the Platform Settings and accessing the Globals page."><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/create-global-NEW.gif" alt="Navigating to the Platform Settings and accessing the Globals page."><figcaption></figcaption></figure>
 
 4. Fill out the form with the following information:
 
@@ -33,3 +33,4 @@ The data used in Globals can be viewed by any user with access to the page and i
 {% endhint %}
 
 5. Click **Save**.
+6. A pop-up window will open on the page. Write “I want to create the global” in the **Confirmation message** field and click **Create**.

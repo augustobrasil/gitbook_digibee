@@ -22,5 +22,6 @@ On the Run page, where you can see all deployed pipelines, the pipeline card dis
 {% endhint %}
 
 6. Click **Save**.
+7. 6\. A pop-up window will open on the page. Write “I want to edit the global” in the **Confirmation message** field and click **Create**.
 
-If you want to delete the Global, click the **Delete global** button, which is represented by the trash can icon.
+If you want to delete the Global, click the **Delete global** button, which is represented by the trash can icon. Confirm the action by clicking **Delete** in the pop-up window.
