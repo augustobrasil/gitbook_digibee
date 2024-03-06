@@ -22,5 +22,6 @@ Na página Run, onde você pode ver todos os _pipelines_ implantados, o cartão 
 {% endhint %}
 
 6. Clique em **Salvar**.
+7. Um pop-up abrirá na página. No campo **Mensagem de confirmação**, escreva “Quero editar a global” e clique em **Criar**.&#x20;
 
-Se você deseja excluir a variável global, clique no botão **Remover global**, que é representado pelo ícone da lixeira.
+Se você deseja excluir a variável global, clique no botão **Remover global**, que é representado pelo ícone da lixeira. Confirme a ação clicando em **Remover** no _pop-up_ que será aberto.

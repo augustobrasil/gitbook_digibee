@@ -12,7 +12,7 @@ Siga estas etapas para criar uma variável global:
 2. No menu **Configurações**, clique em **Globals**.
 3. Clique no botão **Criar**.
 
-<figure><img src="../../.gitbook/assets/criar-global.gif" alt="Navegando nas Configurações da Plataforma e acessando a página Globals."><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/criar-global-NOVO.gif" alt="Navegando nas Configurações da Plataforma e acessando a página Globals."><figcaption></figcaption></figure>
 
 4. Preencha o formulário com as seguintes informações:
 
@@ -33,3 +33,6 @@ Os dados utilizados em _Globals_ podem ser visualizados por qualquer usuário co
 {% endhint %}
 
 5. Clique em **Salvar**.
+6.  Um pop-up abrirá na página. No campo **Mensagem de confirmação**, escreva “Quero criar a global” e clique em **Criar**.&#x20;
+
+    \
