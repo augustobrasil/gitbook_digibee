@@ -16,7 +16,7 @@ Follow these steps to create a Global variable:
 
 4. Fill out the form with the following information:
 
-* **Global name:** the name of the Global variable to be referenced in the pipeline or Capsule. It must be lower case, less than 60 characters and can contain only letters, numbers, and the characters \[-] or \[.].
+* **Global name:** the name of the Global variable to be referenced in the pipeline or Capsule. It must be written in lower case, contain less than 60 characters and can contain only letters, numbers, and the characters \[-] or \[.]. Accents are not allowed.
 * **Category:** select the category to which your Global variable belongs. Each option has a type of validation:
   * **URL:** checks whether it’s a valid URL.
   * **JDBC:** checks whether it’s a valid string connection.
