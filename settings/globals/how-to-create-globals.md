@@ -16,7 +16,7 @@ Siga estas etapas para criar uma variável global:
 
 4. Preencha o formulário com as seguintes informações:
 
-* **Nome da global:** o nome da variável global a ser referenciada no _pipeline_ ou Cápsula. Deve ser em minúsculo, ter menos de 60 caracteres e pode conter apenas letras, números e os caracteres \[-] ou \[.]. Não são permitidos acentos.
+* **Nome da global:** o nome da variável global a ser referenciada no _pipeline_ ou Cápsula. Deve ser escrito em minúsculo, ter menos de 60 caracteres e pode conter apenas letras, números e os caracteres \[-] ou \[.]. Não são permitidos acentos.
 * **Categoria:** selecione a categoria à qual sua variável global pertence. Cada opção possui um tipo de validação:
   * **URL:** verifica se é um URL válido.
   * **JDBC:** verifica se é uma conexão de _string_ válida.
