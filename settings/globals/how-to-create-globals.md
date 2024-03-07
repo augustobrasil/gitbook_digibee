@@ -22,7 +22,7 @@ Follow these steps to create a Global variable:
   * **JDBC:** checks whether it’s a valid string connection.
   * **Email:** checks whether it’s a valid email.
   * **ID:** checks whether only numbers are entered.
-  * **Other:** accepts any input. However, as Globals don’t have an encryption method, we strongly recommend that you don't add sensitive information such as passwords and tokens.
+  * **Other:** accepts any input, but it must be in lower case. However, as Globals lacks an encryption method, we strongly recommend that you don't add sensitive information such as passwords and tokens.
 
 {% hint style="info" %}
 Each category can only have unique values, except for the **Other** category. If you need to add a list of information, please choose the **Other** category.
