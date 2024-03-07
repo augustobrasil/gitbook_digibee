@@ -16,13 +16,13 @@ Follow these steps to create a Global variable:
 
 4. Fill out the form with the following information:
 
-* **Global name:** the name of the Global variable to be referenced in the pipeline or Capsule. It must be less than 60 characters and can contain only letters, numbers, and the characters \[-] or \[.].
+* **Global name:** the name of the Global variable to be referenced in the pipeline or Capsule. It must be lower case, less than 60 characters and can contain only letters, numbers, and the characters \[-] or \[.].
 * **Category:** select the category to which your Global variable belongs. Each option has a type of validation:
   * **URL:** checks whether it’s a valid URL.
   * **JDBC:** checks whether it’s a valid string connection.
   * **Email:** checks whether it’s a valid email.
   * **ID:** checks whether only numbers are entered.
-  * **Other:** accepts any input, but it must be in lower case. However, as Globals lacks an encryption method, we strongly recommend that you don't add sensitive information such as passwords and tokens.
+  * **Other:** accepts any input. However, as Globals lacks an encryption method, we strongly recommend that you don't add sensitive information such as passwords and tokens.
 
 {% hint style="info" %}
 Each category can only have unique values, except for the **Other** category. If you need to add a list of information, please choose the **Other** category.
