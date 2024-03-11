@@ -37,7 +37,11 @@ Follow these steps to configure sensitive fields for the entire realm:
 4. Insert the sensitive fields in the text field, separated by commas, for example: addressCode, addressComplement.
 
 {% hint style="info" %}
-The special character hyphen \[-] is allowed in the name of the sensitive field. Other special characters, accents, and cedilla \[ç] are not allowed.
+**Important information:**
+
+* The special character hyphen \[-] is allowed in the name of the sensitive field. Other special characters, accents, and cedilla \[ç] are not allowed.
+* Sensitive fields are case-sensitive, so “ID” is different from “id”.
+* It’s not possible to use regular expressions (regex) on sensitive fields.
 {% endhint %}
 
 5. Click **Add**. The sensitive fields are displayed in a list below. You can remove them by clicking the **X** icon.
