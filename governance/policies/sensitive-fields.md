@@ -37,7 +37,11 @@ Para definir campos sensíveis para todo o _realm_, você deve configurar uma **
 4. Insira os campos sensíveis no campo de texto, separados por vírgula, por exemplo: complementoEndereço, numeroTelefone.
 
 {% hint style="info" %}
-O caractere especial hífen \[-] é permitido no nome do campo sensível. Outros caracteres especiais, acentos e cedilha \[ç] não são permitidos.
+**Informações importantes:**
+
+* O caractere especial hífen \[-] é permitido no nome do campo sensível. Outros caracteres especiais, acentos e cedilha \[ç] não são permitidos.
+* Campos sensíveis diferenciam maiúsculas e minúsculas, então “ID” é diferente de “id”.&#x20;
+* Não é possível usar expressões regulares (regex) em campos sensíveis.
 {% endhint %}
 
 5. Clique em **Adicionar**. Os campos sensíveis são exibidos em uma lista abaixo. Você pode removê-los clicando no ícone de **X**.
