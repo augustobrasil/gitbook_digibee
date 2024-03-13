@@ -89,5 +89,5 @@ Na aba Contrato, no campo **Saída**, defina a estrutura de saída do seu compon
 É obrigatório adicionar um JSON Schema para publicar a Cápsula. Um JSON Schema bem definido traz mais segurança para quem utiliza a Cápsula.
 
 {% hint style="warning" %}
-Alterações no JSON Schema que resultam em quebra de contrato atualizam automaticamente a versão da Cápsula para garantir que _pipelines_ não sejam afetados. Leia mais sobre o [versionamento de Cápsulas](../versionamento-de-capsulas.md).
+Alterações no JSON Schema que resultam em quebra de contrato atualizam automaticamente a versão da Cápsula para garantir que _pipelines_ não sejam afetados. Leia mais sobre o [versionamento de Cápsulas](../capsules-versioning.md).
 {% endhint %}

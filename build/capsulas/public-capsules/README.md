@@ -13,7 +13,7 @@ As cápsulas públicas que foram criadas e validadas pela Digibee Integration Pl
 
 <figure><img src="../../../.gitbook/assets/cápsula-certificada (1).png" alt="Cápsula certificada pela Digibee na plataforma."><figcaption></figcaption></figure>
 
-Todas as coleções e todas as [versões](../versionamento-de-capsulas.md) de cada cápsula pública estão disponíveis na aba **Cápsulas**, no lado direito do canvas do _pipeline_.
+Todas as coleções e todas as [versões](../capsules-versioning.md) de cada cápsula pública estão disponíveis na aba **Cápsulas**, no lado direito do canvas do _pipeline_.
 
 <figure><img src="../../../.gitbook/assets/publicar-cápsula-2.png" alt="O canvas do pipeline onde você pode acessar a paleta de cápsulas e usar as cápsulas publicadas."><figcaption></figcaption></figure>
 

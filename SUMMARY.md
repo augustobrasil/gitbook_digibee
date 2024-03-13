@@ -66,7 +66,7 @@
     * [Como publicar uma Cápsula](build/capsulas/how-to-use-capsules/how-to-publish-a-capsule.md)
     * [Como mudar uma Cápsula de coleção ou grupo](build/capsulas/how-to-use-capsules/how-to-change-a-capsule-collection-or-group.md)
     * [Como arquivar e restaurar uma Cápsula](build/capsulas/how-to-use-capsules/how-to-archive-and-restore-a-capsule.md)
-  * [Versionamento de Cápsulas](build/capsulas/versionamento-de-capsulas.md)
+  * [Versionamento de Cápsulas](build/capsulas/capsules-versioning.md)
   * [Cápsulas públicas](build/capsulas/public-capsules/README.md)
     * [SAP](build/capsulas/public-capsules/sap.md)
     * [Digibee Tools](build/capsulas/public-capsules/digibee-tools.md)
