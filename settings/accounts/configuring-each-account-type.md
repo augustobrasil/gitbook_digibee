@@ -8,6 +8,10 @@ description: >-
 
 There are different types of accounts, such as AWS V4, Basic, Public Key, Secret Key, OAuth 2, and API Key, and it is highlighted that they can be configured and stored with the Store Account component without interrupting execution. Below you will learn how to configure each of these Accounts.
 
+{% hint style="info" %}
+Accounts accept values that have up to 10,000 characters.
+{% endhint %}
+
 ## Accounts type
 
 | Account Type            | Description                                                                                                                                                                                                                                                                                                   | Fields/ Parameters                                                                                                                                                                                                                                                                                                                                                 |
