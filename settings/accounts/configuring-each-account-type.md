@@ -8,6 +8,10 @@ description: >-
 
 Existem diferentes tipos de contas, como AWS V4, Basic, Public Key, Secret Key, OAuth 2 e API Key, e destaca-se que podem ser configuradas e armazenadas com o componente Store Account sem interromper a execução. Abaixo você aprenderá como configurar cada uma dessas contas.
 
+{% hint style="info" %}
+Contas aceitam valores de até 10.000 caracteres.
+{% endhint %}
+
 ## Tipos de contas
 
 | Tipo de Conta                  | Descrição                                                                                                                                                                                                                                                                                                     | Campos/ Parâmetros                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
