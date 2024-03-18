@@ -14,7 +14,7 @@ Sensitive fields can be defined when creating an integration. These fields usual
 
 When you set a sensitive field on the Digibee Integration Platform, the information in the [pipeline logs](https://docs.digibee.com/documentation/monitor/pipeline-logs) is obfuscated with the character set "\*\*\*". Take a look at the following image:
 
-<figure><img src="../../.gitbook/assets/sensitive-fields-log.png" alt="Log details of a log that contains sensitive fields."><figcaption><p>Log with sensitive fields on the Monitor page.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sensitive-fields-log.png" alt="Log details of a log that contains sensitive fields."><figcaption><p>Log with sensitive fields on the Monitor page.</p></figcaption></figure>
 
 On the Digibee Integration Platform, you have two options for defining sensitive fields. You can define them:
 

@@ -18,7 +18,7 @@ You can choose between 3 options for each environment, as described below:
 
 In the image below, you can see how the alternatives are displayed and choose one for each environment. If you are not sure, go with the third option.
 
-<figure><img src="../../.gitbook/assets/External EN.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/External EN.png" alt=""><figcaption></figcaption></figure>
 
 ## How it works
 
@@ -28,7 +28,7 @@ Once your **External API Key** policy is configured, each new pipeline must foll
 
 To enable your API Key or JWT Token in your pipeline trigger, activate the toggle as shown in the image below:
 
-<figure><img src="../../.gitbook/assets/Trigger (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Trigger (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Creating your API Key
 

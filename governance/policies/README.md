@@ -43,5 +43,5 @@ Learn more about the configuration of each policy:
 
 * [External API Keys](https://docs.digibee.com/documentation/governance/policies/external-api-key)
 * [Internal API Keys](https://docs.digibee.com/documentation/governance/policies/internal-api-key)
-* [Sensitive fields](sensitive-fields.md)
+* [Sensitive fields](security/sensitive-fields.md)
 

@@ -180,9 +180,10 @@
 ## GOVERNANCE
 
 * [Policies (beta)](governance/policies/README.md)
-  * [Internal API access policy](governance/policies/internal-api-key.md)
-  * [External API access policy](governance/policies/external-api-key.md)
-  * [Sensitive fields policy](governance/policies/sensitive-fields.md)
+  * [Security](governance/policies/security/README.md)
+    * [Internal API access policy](governance/policies/security/internal-api-access.md)
+    * [External API access policy](governance/policies/security/external-api-access.md)
+    * [Sensitive fields policy](governance/policies/security/sensitive-fields.md)
 
 ## Licensing
 
