@@ -22,7 +22,7 @@ You can activate digibeectl on the digibeectl page, on the **Administration** se
 
 ## **Is it safe to share my sensitive data with digibeectl?**
 
-Yes, digibeectl is based on Digibee's security architecture. To gain access, a unique token is generated with necessary permissions. To learn more about how to generate your unique digibeectl token see the [How to obtain digibeectl configuration file](gerando-novo-token.md).
+Yes, digibeectl is based on Digibee's security architecture. To gain access, a unique token is generated with necessary permissions. To learn more about how to generate your unique digibeectl token see the [How to obtain digibeectl configuration file](configuration.md).
 
 ## **How does digibeectl versioning and maintenance work?**
 
@@ -47,7 +47,7 @@ The following permissions are required to use digibeectl:
 * USER:READ:LIST-JWT
 * USER:DELETE:REVOKE-JWT
 
-For more details on how to generate a token for digibeectl, see the article [How to obtain digibeectl configuration file.](gerando-novo-token.md)
+For more details on how to generate a token for digibeectl, see the article [How to obtain digibeectl configuration file.](configuration.md)
 
 ## **Is digibeectl compatible with my CI/CD tools and DevOps processes?**
 
