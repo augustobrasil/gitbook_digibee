@@ -41,6 +41,6 @@ Saiba mais sobre a configuração de cada política:
 
 * [Chaves de API Externas](https://docs.digibee.com/documentation/v/pt-br/governance/policies/policies-external-api-key)
 * [Chaves de API Internas](https://docs.digibee.com/documentation/v/pt-br/governance/policies/policies-internal-api-key)
-* [Campos sensíveis](sensitive-fields.md)
+* [Campos sensíveis](security/sensitive-fields.md)
 
 \

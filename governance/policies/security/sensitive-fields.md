@@ -14,7 +14,7 @@ Campos sensíveis podem ser definidos ao criar uma integração. Esses campos ge
 
 Quando você define um campo sensível, as informações nos [_logs_ do _pipeline_](https://docs.digibee.com/documentation/v/pt-br/monitor/pipeline-logs) são ofuscadas com o conjunto de caracteres "\*\*\*". Confira a imagem a seguir:
 
-<figure><img src="../../.gitbook/assets/campos-sensiveis-log.png" alt="Detalhes de um log que contém informações sensíveis."><figcaption><p>Log com campos sensíveis na página Monitor.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/campos-sensiveis-log.png" alt="Detalhes de um log que contém informações sensíveis."><figcaption><p>Log com campos sensíveis na página Monitor.</p></figcaption></figure>
 
 Na Digibee Integration Platform, você tem duas opções para configurar campos confidenciais. Você pode defini-los:
 

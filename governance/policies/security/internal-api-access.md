@@ -20,7 +20,7 @@ Você pode escolher entre 3 opções para cada ambiente, como descrito abaixo:
 
 Confira na imagem abaixo como visualizar as alternativas e selecionar uma para cada ambiente. Caso tenha dúvidas, escolha a terceira opção.
 
-<figure><img src="../../.gitbook/assets/internas pt.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/internas pt.png" alt=""><figcaption></figcaption></figure>
 
 ## Como funciona
 
@@ -30,7 +30,7 @@ Uma vez configurada a sua política de **Chave de API**, cada novo pipeline deve
 
 Para habilitar sua API Key ou seu Token JWT no trigger de seu pipeline, ative o botão conforme imagem abaixo:
 
-<figure><img src="../../.gitbook/assets/Trigger (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Trigger (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Criando sua Chave de API
 

@@ -22,7 +22,7 @@ No formulário **Configuração do **_**pipeline**_, se necessário, configure o
 * **Campo sensível:** campos de dados que devem ser ofuscados nos [_logs_ do _pipeline_](../../monitor/pipeline-logs.md) com o conjunto de caracteres "\*\*\*". O caractere especial hífen \[-] é permitido no nome do campo sensível. Outros caracteres especiais, acentos e cedilha \[ç] não são permitidos.&#x20;
 
 {% hint style="info" %}
-Se você configurar campos sensíveis na configuração do _pipeline_, eles se aplicam apenas a este _pipeline_ específico. Se deseja configurar campos sensíveis para todos os _pipelines_ no seu _realm_, por favor, consulte a documentação da [Política de campos sensíveis](../../governance/policies/sensitive-fields.md).
+Se você configurar campos sensíveis na configuração do _pipeline_, eles se aplicam apenas a este _pipeline_ específico. Se deseja configurar campos sensíveis para todos os _pipelines_ no seu _realm_, por favor, consulte a documentação da [Política de campos sensíveis](../../governance/policies/security/sensitive-fields.md).
 {% endhint %}
 
 * _**InSpec**_**:** entrada do fluxo do _pipeline_.
