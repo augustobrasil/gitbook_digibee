@@ -293,6 +293,7 @@
   * [RSA Cryptography](components/security-components/rsa-cryptography.md)
   * [Symmetric Cryptography](components/security-components/symmetric-cryptography.md)
 * [Structured data](components/structured-data/README.md)
+  * [DynamoDB (Restricted Beta)](components/structured-data/dynamodb.md)
   * [Memcached](components/structured-data/memcached.md)
   * [Cassandra DB](components/structured-data/cassandra-db.md)
   * [DB V2](components/structured-data/db-v2/README.md)
