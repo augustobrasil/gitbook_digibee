@@ -24,7 +24,7 @@ Esse recurso pode tornar seu trabalho mais eficiente porque:
 
 Abaixo você verá como pode ver as sugestões e aplicá-las ao seu fluxo.
 
-## Como usar sugestões de IA
+## Como usar as sugestões de IA
 
 Para usar as sugestões de IA, mova o ponteiro do mouse sobre o componente e clique em **Sugestões IA**, um botão representado por um ícone com brilhos. Os componentes sugeridos serão listados e você pode clicar naquele que funciona no seu fluxo. Você só pode selecionar um componente por vez.
 
