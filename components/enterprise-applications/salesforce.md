@@ -4,11 +4,7 @@ description: >-
   Integration Platform.
 ---
 
-# Salesforce (Beta)
-
-{% hint style="info" %}
-This feature is currently in Beta phase. Learn more about the [Beta Program](../../general/beta-program.md).
-{% endhint %}
+# Salesforce
 
 The **Salesforce** component allows you to perform operations on the Salesforce platform.&#x20;
 
