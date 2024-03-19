@@ -16,7 +16,7 @@ Com essa funcionalidade, você consegue arquitetar uma estratégia de extração
 
 ## Visão geral <a href="#h_ad75aa73e6" id="h_ad75aa73e6"></a>
 
-![](<../../.gitbook/assets/01 (5).png>)
+![](../../.gitbook/assets/overview-multi-instancia.png)
 
 Localizado na página de **configurações**, a página **Multi-instância** disponibiliza a listagem de todos os modelos de multi-instância já criados dentro da Plataforma e seus respectivos parâmetros de configuração. São eles:
 
