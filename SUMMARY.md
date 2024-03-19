@@ -175,7 +175,7 @@
   * [Configuring the Dropbox account](settings/accounts/configuring-the-dropbox-account.md)
 * [Consumers (API Keys)](settings/api-keys-consumers.md)
 * [Relationship model](settings/relationship.md)
-* [Multi-instance](settings/multi-instance/README.md)
+* [Multi-Instance](settings/multi-instance/README.md)
   * [Deploying a multi-instance pipeline](settings/multi-instance/multi-instance.md)
 
 ## GOVERNANCE

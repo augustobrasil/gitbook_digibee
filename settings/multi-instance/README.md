@@ -4,7 +4,7 @@ description: >-
   the same pipeline multiple times with different parameters.
 ---
 
-# Multi-instance
+# Multi-Instance
 
 This feature is often used when we need to use the same pipeline, that is, the same construction logic, to access different endpoints such as Accounts and Globals. This eliminates the need for multiple versions of the same pipeline.
 
@@ -16,7 +16,7 @@ With this functionality, you can design an accelerated data extraction strategy 
 
 ## Overview <a href="#h_dc6b097e9d" id="h_dc6b097e9d"></a>
 
-![](<../../.gitbook/assets/01 (19).png>)
+<figure><img src="../../.gitbook/assets/multi-instance-overview.png" alt=""><figcaption></figcaption></figure>
 
 On the **Settings** page, the **Multi-Instance** menu lists all multi-instance models already created in the Platform and their respective configuration parameters. These are:
 
