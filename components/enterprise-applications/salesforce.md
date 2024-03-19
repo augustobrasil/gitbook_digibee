@@ -4,11 +4,7 @@ description: >-
   Integration Platform.
 ---
 
-# Salesforce (Beta)
-
-{% hint style="info" %}
-Esta funcionalidade está atualmente em fase Beta. Saiba mais sobre o [Programa Beta](https://docs.digibee.com/documentation/v/pt-br/general/programa-beta).
-{% endhint %}
+# Salesforce
 
 O componente **Salesforce** permite que você realize operações na plataforma Salesforce.
 

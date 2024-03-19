@@ -226,7 +226,7 @@
     * [mTLS](components/triggers/triggers-settings/mtls.md)
   * [Email Trigger](components/triggers/email-trigger.md)
 * [Enterprise applications](components/enterprise-applications/README.md)
-  * [Salesforce (Beta)](components/enterprise-applications/salesforce.md)
+  * [Salesforce](components/enterprise-applications/salesforce.md)
   * [SAP](components/enterprise-applications/sap.md)
 * [File storage](components/file-storage/README.md)
   * [Blob Storage (Azure)](components/file-storage/azure-blob-storage.md)
