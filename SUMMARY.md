@@ -46,6 +46,7 @@
   * [Painel de execução](build/canvas/execution-panel.md)
   * [Modos de design e debug](build/canvas/design-and-debug-mode.md)
   * [Linter: Validação de construção do canvas](build/canvas/canvas-building-validation.md)
+  * [Assistente de IA para criação de fluxo (beta restrito)](build/canvas/ai-assistant-for-flow-creation.md)
 * [Pipeline](build/pipelines/README.md)
   * [Subpipelines](build/pipelines/subpipelines.md)
   * [Como criar um projeto](build/pipelines/projetos.md)
