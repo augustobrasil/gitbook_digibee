@@ -52,7 +52,7 @@ Os tamanhos de _gateway_ de VPN dependem do número de RTUs em sua assinatura at
 * Nosso teste para suporte de VPN em conexões de entrada foi limitado a _triggers_ [REST ](https://docs.digibee.com/documentation/v/pt-br/components/triggers/rest-trigger)e [HTTP](https://docs.digibee.com/documentation/v/pt-br/components/triggers/http-trigger).
 * A Digibee Integration Platform suporta apenas VPNs IPSEC baseadas em rota.
 * Você não pode se conectar a sub-redes que se sobrepõem à sub-rede interna da Digibee.
-  * Digibee SaaS sub-rede (Brasil) - 10.0.0.0/14 (10.0.0.1 - 10.3.255.254)
-  * Digibee Saas sub-rede (Estados Unidos) - 172.19.0.0/16 (172.19.0.1 - 172.19.255.254) e 172.12.0.0/16 (172.12.0.1 - 172.12.255.254)
+  * Digibee SaaS subnet (Brazil) - 10.158.0.0/20 (default) e 10.0.0.0/14 (10.0.0.1 - 10.3.255.254)
+  * Digibee Saas subnet (USA) -  192.168.0.0/24, 172.19.0.0/16 (172.19.0.1 - 172.19.255.254) e 172.12.0.0/16 (172.12.0.1 - 172.12.255.254)
 * Você não pode usar a mesma instância VPN para dois ou mais _realms_.
 * O par usado para conectar à Fase 1 deve ser /32.
