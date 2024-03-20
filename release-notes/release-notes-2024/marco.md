@@ -19,17 +19,27 @@ Implementamos melhorias no formulário de configuração de Cápsulas visando si
 
 Nesta atualização, as abas Parâmetros e Contas foram unificadas na aba Formulário, e a pessoa usuária pode selecionar facilmente se irá adicionar campos de parâmetros ou contas. Essa mudança simplifica a experiência e reduz a complexidade da configuração.
 
-Aprenda mais na documentação sobre [como configurar uma Cápsula](https://docs.digibee.com/documentation/v/pt-br/build/capsulas/how-to-use-capsules/how-to-configure-a-capsule).\
-​\
-​
+Aprenda mais na documentação sobre [como configurar uma Cápsula](https://docs.digibee.com/documentation/v/pt-br/build/capsulas/how-to-use-capsules/how-to-configure-a-capsule).
+
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2FK26rzuOPEMV9VgvT6Yqq%2FCapsule%20configuration%20form.mp4?alt=media&token=60426c76-d17b-4447-a6bf-32b37831b4b4" %}
+Vídeo da feature de novo formulário de configuração de Cápsulas
+{% endembed %}
+
+##
 
 ## Assistente de IA para criação de fluxos (Beta Restrito)
 
 A nova funcionalidade de Assistente de IA para criação de fluxos usa tecnologia de IA para sugerir novos componentes para pessoas usuárias adicionarem em seus fluxos nos _pipelines_. Essa ferramenta simplifica a criação de fluxos e proporciona às pessoas usuárias mais liberdade para escolher a melhor sugestão, aumentando eficiência e produtividade.
 
-Essa funcionalidade está em beta restrito. Aprenda mais sobre ela na documentação [Assistente de IA para criação de fluxos](https://docs.digibee.com/documentation/v/pt-br/build/canvas/ai-assistant-for-flow-creation).\
-​\
-​
+Essa funcionalidade está em beta restrito. Aprenda mais sobre ela na documentação [Assistente de IA para criação de fluxos](https://docs.digibee.com/documentation/v/pt-br/build/canvas/ai-assistant-for-flow-creation).
+
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2FBSwSRUncRICPcyNkK71h%2FAI%20Assistant%20for%20flow%20creation.mp4?alt=media&token=57eb8314-ac73-44b2-b8d4-e7a3649c1dfa" %}
+Vídeo da feature de assistente IA para criação de fluxo
+{% endembed %}
+
+
+
+
 
 ## Digibee Academy: atualização no curso Functional Analysis
 
@@ -57,7 +67,11 @@ Agora as pessoas usuárias podem se familiarizar com conceitos de ZTNA e entende
 * **Run — Botão de rollback:** removemos a ID dinâmica para criarmos uma data estática e fixa que não se altera baseada na ID do _pipeline_.
 * **Componentes — Stream DB V3:** corrigimos o _bug_ que causava um erro quando o componente manipulava valores nulos em colunas CLOB.
 
+
+
 ***
+
+##
 
 ## Novidades 06/03/2024
 
