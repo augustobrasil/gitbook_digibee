@@ -22,15 +22,23 @@ With this update, the Parameters and Accounts tabs have been combined into one F
 
 Learn more in the documentation about [how to configure a Capsule](https://docs.digibee.com/documentation/build/capsulas/how-to-use-capsules/how-to-configure-a-capsule).
 
-\
-​
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2FK26rzuOPEMV9VgvT6Yqq%2FCapsule%20configuration%20form.mp4?alt=media&token=60426c76-d17b-4447-a6bf-32b37831b4b4" %}
+New configuration form for Capsules feature video
+{% endembed %}
+
+##
 
 ## AI Assistant for flow creation (Restricted Beta)
 
 The AI Assistant for flow creation is a new AI-powered feature that suggests the next component for users to add to their flow in pipelines. This makes it easier to create flows and gives users the freedom to choose the best suggestion for them, increasing efficiency and productivity.
 
-This feature is in the restricted beta phase. Learn more about it in the [AI Assistant for flow creation documentation](https://docs.digibee.com/documentation/build/canvas/ai-assistant-for-flow-creation).\
-​
+This feature is in the restricted beta phase. Learn more about it in the [AI Assistant for flow creation documentation](https://docs.digibee.com/documentation/build/canvas/ai-assistant-for-flow-creation).
+
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4523BaA7JfghHEYBbLWY%2Fuploads%2FBSwSRUncRICPcyNkK71h%2FAI%20Assistant%20for%20flow%20creation.mp4?alt=media&token=57eb8314-ac73-44b2-b8d4-e7a3649c1dfa" %}
+AI Assistant for flow creation feature video
+{% endembed %}
+
+
 
 
 
